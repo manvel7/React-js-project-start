@@ -1,0 +1,193 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Row default should match snapshot 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-left: calc( 3.2rem / -2 );
+  margin-right: calc( 3.2rem / -2 );
+}
+
+<div
+  class="c0 row"
+>
+  This is a row
+</div>
+`;
+
+exports[`Row with alignItems of baseline should match snapshot 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-left: calc( 3.2rem / -2 );
+  margin-right: calc( 3.2rem / -2 );
+  -webkit-align-items: baseline;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+}
+
+<div
+  class="c0 row"
+>
+  This is a row
+</div>
+`;
+
+exports[`Row with alignItems of center should match snapshot 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-left: calc( 3.2rem / -2 );
+  margin-right: calc( 3.2rem / -2 );
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<div
+  class="c0 row"
+>
+  This is a row
+</div>
+`;
+
+exports[`Row with alignItems of flex-end should match snapshot 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-left: calc( 3.2rem / -2 );
+  margin-right: calc( 3.2rem / -2 );
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+}
+
+<div
+  class="c0 row"
+>
+  This is a row
+</div>
+`;
+
+exports[`Row with alignItems of flex-start should match snapshot 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-left: calc( 3.2rem / -2 );
+  margin-right: calc( 3.2rem / -2 );
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+<div
+  class="c0 row"
+>
+  This is a row
+</div>
+`;
+
+exports[`Row with alignItems of normal should match snapshot 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-left: calc( 3.2rem / -2 );
+  margin-right: calc( 3.2rem / -2 );
+  -webkit-align-items: normal;
+  -webkit-box-align: normal;
+  -ms-flex-align: normal;
+  align-items: normal;
+}
+
+<div
+  class="c0 row"
+>
+  This is a row
+</div>
+`;
+
+exports[`Row with alignItems of stretch should match snapshot 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-left: calc( 3.2rem / -2 );
+  margin-right: calc( 3.2rem / -2 );
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+<div
+  class="c0 row"
+>
+  This is a row
+</div>
+`;
+
+exports[`Row with no gutters should match snapshot 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-left: calc( 3.2rem / -2 );
+  margin-right: calc( 3.2rem / -2 );
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.c0 > .col,
+.c0 > [class*="col-"] {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+<div
+  class="c0 row no-gutters"
+>
+  This is a row
+</div>
+`;

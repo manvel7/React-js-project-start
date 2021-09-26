@@ -1,0 +1,756 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Alert Default dismissible should match snapshot 1`] = `
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  bottom: 1.6rem;
+  box-sizing: border-box;
+  color: #FEFEFE;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  opacity: 1;
+  padding: 1.2rem 1.6rem;
+  -webkit-transition: 0.6s linear all;
+  transition: 0.6s linear all;
+  visibility: visible;
+  width: 100%;
+  font-size: 1.8rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0.005em;
+  -moz-letter-spacing: 0.005em;
+  -ms-letter-spacing: 0.005em;
+  letter-spacing: 0.005em;
+  line-height: 2.4rem;
+  background-color: #001254;
+}
+
+.c0 b,
+.c0 strong {
+  font-weight: 800;
+}
+
+.c0.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #FEFEFE;
+  border-radius: 5rem;
+  border-width: 0;
+  color: #001254;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 1.5rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-left: 1.5rem;
+  width: 1.5rem;
+  color: #001254;
+}
+
+<div
+  class="c0"
+  role="alert"
+>
+  <div>
+    Default dismissible alert
+  </div>
+  <button
+    class="c1"
+  >
+    <svg
+      aria-hidden="true"
+      class="svg-inline--fa fa-times fa-w-11 "
+      data-icon="times"
+      data-prefix="fas"
+      focusable="false"
+      role="img"
+      viewBox="0 0 352 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+        fill="currentColor"
+      />
+    </svg>
+  </button>
+</div>
+`;
+
+exports[`Alert Default should match snapshot 1`] = `
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  bottom: 1.6rem;
+  box-sizing: border-box;
+  color: #FEFEFE;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  opacity: 1;
+  padding: 1.2rem 1.6rem;
+  -webkit-transition: 0.6s linear all;
+  transition: 0.6s linear all;
+  visibility: visible;
+  width: 100%;
+  font-size: 1.8rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0.005em;
+  -moz-letter-spacing: 0.005em;
+  -ms-letter-spacing: 0.005em;
+  letter-spacing: 0.005em;
+  line-height: 2.4rem;
+  background-color: #001254;
+}
+
+.c0 b,
+.c0 strong {
+  font-weight: 800;
+}
+
+.c0.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+<div
+  class="c0"
+  role="alert"
+>
+  <div>
+    Default alert
+  </div>
+</div>
+`;
+
+exports[`Alert Error dismissible should match snapshot 1`] = `
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  bottom: 1.6rem;
+  box-sizing: border-box;
+  color: #FEFEFE;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  opacity: 1;
+  padding: 1.2rem 1.6rem;
+  -webkit-transition: 0.6s linear all;
+  transition: 0.6s linear all;
+  visibility: visible;
+  width: 100%;
+  font-size: 1.8rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0.005em;
+  -moz-letter-spacing: 0.005em;
+  -ms-letter-spacing: 0.005em;
+  letter-spacing: 0.005em;
+  line-height: 2.4rem;
+  background-color: #CA0000;
+}
+
+.c0 b,
+.c0 strong {
+  font-weight: 800;
+}
+
+.c0.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #FEFEFE;
+  border-radius: 5rem;
+  border-width: 0;
+  color: #001254;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 1.5rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-left: 1.5rem;
+  width: 1.5rem;
+  color: #CA0000;
+}
+
+<div
+  class="c0"
+  role="alert"
+>
+  <div>
+    Error dismissible alert
+  </div>
+  <button
+    class="c1"
+  >
+    <svg
+      aria-hidden="true"
+      class="svg-inline--fa fa-times fa-w-11 "
+      data-icon="times"
+      data-prefix="fas"
+      focusable="false"
+      role="img"
+      viewBox="0 0 352 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+        fill="currentColor"
+      />
+    </svg>
+  </button>
+</div>
+`;
+
+exports[`Alert Error should match snapshot 1`] = `
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  bottom: 1.6rem;
+  box-sizing: border-box;
+  color: #FEFEFE;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  opacity: 1;
+  padding: 1.2rem 1.6rem;
+  -webkit-transition: 0.6s linear all;
+  transition: 0.6s linear all;
+  visibility: visible;
+  width: 100%;
+  font-size: 1.8rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0.005em;
+  -moz-letter-spacing: 0.005em;
+  -ms-letter-spacing: 0.005em;
+  letter-spacing: 0.005em;
+  line-height: 2.4rem;
+  background-color: #CA0000;
+}
+
+.c0 b,
+.c0 strong {
+  font-weight: 800;
+}
+
+.c0.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+<div
+  class="c0"
+  role="alert"
+>
+  <div>
+    Error alert
+  </div>
+</div>
+`;
+
+exports[`Alert Info dismissible should match snapshot 1`] = `
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  bottom: 1.6rem;
+  box-sizing: border-box;
+  color: #FEFEFE;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  opacity: 1;
+  padding: 1.2rem 1.6rem;
+  -webkit-transition: 0.6s linear all;
+  transition: 0.6s linear all;
+  visibility: visible;
+  width: 100%;
+  font-size: 1.8rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0.005em;
+  -moz-letter-spacing: 0.005em;
+  -ms-letter-spacing: 0.005em;
+  letter-spacing: 0.005em;
+  line-height: 2.4rem;
+  background-color: #001254;
+}
+
+.c0 b,
+.c0 strong {
+  font-weight: 800;
+}
+
+.c0.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #FEFEFE;
+  border-radius: 5rem;
+  border-width: 0;
+  color: #001254;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 1.5rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-left: 1.5rem;
+  width: 1.5rem;
+  color: #001254;
+}
+
+<div
+  class="c0"
+  role="alert"
+>
+  <div>
+    Info dismissible alert
+  </div>
+  <button
+    class="c1"
+  >
+    <svg
+      aria-hidden="true"
+      class="svg-inline--fa fa-times fa-w-11 "
+      data-icon="times"
+      data-prefix="fas"
+      focusable="false"
+      role="img"
+      viewBox="0 0 352 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+        fill="currentColor"
+      />
+    </svg>
+  </button>
+</div>
+`;
+
+exports[`Alert Info should match snapshot 1`] = `
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  bottom: 1.6rem;
+  box-sizing: border-box;
+  color: #FEFEFE;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  opacity: 1;
+  padding: 1.2rem 1.6rem;
+  -webkit-transition: 0.6s linear all;
+  transition: 0.6s linear all;
+  visibility: visible;
+  width: 100%;
+  font-size: 1.8rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0.005em;
+  -moz-letter-spacing: 0.005em;
+  -ms-letter-spacing: 0.005em;
+  letter-spacing: 0.005em;
+  line-height: 2.4rem;
+  background-color: #001254;
+}
+
+.c0 b,
+.c0 strong {
+  font-weight: 800;
+}
+
+.c0.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+<div
+  class="c0"
+  role="alert"
+>
+  <div>
+    Info alert
+  </div>
+</div>
+`;
+
+exports[`Alert Success dismissible should match snapshot 1`] = `
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  bottom: 1.6rem;
+  box-sizing: border-box;
+  color: #FEFEFE;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  opacity: 1;
+  padding: 1.2rem 1.6rem;
+  -webkit-transition: 0.6s linear all;
+  transition: 0.6s linear all;
+  visibility: visible;
+  width: 100%;
+  font-size: 1.8rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0.005em;
+  -moz-letter-spacing: 0.005em;
+  -ms-letter-spacing: 0.005em;
+  letter-spacing: 0.005em;
+  line-height: 2.4rem;
+  background-color: #0C5B0F;
+}
+
+.c0 b,
+.c0 strong {
+  font-weight: 800;
+}
+
+.c0.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #FEFEFE;
+  border-radius: 5rem;
+  border-width: 0;
+  color: #001254;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 1.5rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-left: 1.5rem;
+  width: 1.5rem;
+  color: #0C5B0F;
+}
+
+<div
+  class="c0"
+  role="alert"
+>
+  <div>
+    Success alert
+  </div>
+  <button
+    class="c1"
+  >
+    <svg
+      aria-hidden="true"
+      class="svg-inline--fa fa-times fa-w-11 "
+      data-icon="times"
+      data-prefix="fas"
+      focusable="false"
+      role="img"
+      viewBox="0 0 352 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+        fill="currentColor"
+      />
+    </svg>
+  </button>
+</div>
+`;
+
+exports[`Alert Success should match snapshot 1`] = `
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  bottom: 1.6rem;
+  box-sizing: border-box;
+  color: #FEFEFE;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  opacity: 1;
+  padding: 1.2rem 1.6rem;
+  -webkit-transition: 0.6s linear all;
+  transition: 0.6s linear all;
+  visibility: visible;
+  width: 100%;
+  font-size: 1.8rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0.005em;
+  -moz-letter-spacing: 0.005em;
+  -ms-letter-spacing: 0.005em;
+  letter-spacing: 0.005em;
+  line-height: 2.4rem;
+  background-color: #0C5B0F;
+}
+
+.c0 b,
+.c0 strong {
+  font-weight: 800;
+}
+
+.c0.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+<div
+  class="c0"
+  role="alert"
+>
+  <div>
+    Success alert
+  </div>
+</div>
+`;
+
+exports[`Alert Warning dismissible should match snapshot 1`] = `
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  bottom: 1.6rem;
+  box-sizing: border-box;
+  color: #FEFEFE;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  opacity: 1;
+  padding: 1.2rem 1.6rem;
+  -webkit-transition: 0.6s linear all;
+  transition: 0.6s linear all;
+  visibility: visible;
+  width: 100%;
+  font-size: 1.8rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0.005em;
+  -moz-letter-spacing: 0.005em;
+  -ms-letter-spacing: 0.005em;
+  letter-spacing: 0.005em;
+  line-height: 2.4rem;
+  background-color: #D4A600;
+}
+
+.c0 b,
+.c0 strong {
+  font-weight: 800;
+}
+
+.c0.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #FEFEFE;
+  border-radius: 5rem;
+  border-width: 0;
+  color: #001254;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 1.5rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-left: 1.5rem;
+  width: 1.5rem;
+  color: #D4A600;
+}
+
+<div
+  class="c0"
+  role="alert"
+>
+  <div>
+    Warning dismissible alert
+  </div>
+  <button
+    class="c1"
+  >
+    <svg
+      aria-hidden="true"
+      class="svg-inline--fa fa-times fa-w-11 "
+      data-icon="times"
+      data-prefix="fas"
+      focusable="false"
+      role="img"
+      viewBox="0 0 352 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+        fill="currentColor"
+      />
+    </svg>
+  </button>
+</div>
+`;
+
+exports[`Alert Warning should match snapshot 1`] = `
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  bottom: 1.6rem;
+  box-sizing: border-box;
+  color: #FEFEFE;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  opacity: 1;
+  padding: 1.2rem 1.6rem;
+  -webkit-transition: 0.6s linear all;
+  transition: 0.6s linear all;
+  visibility: visible;
+  width: 100%;
+  font-size: 1.8rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0.005em;
+  -moz-letter-spacing: 0.005em;
+  -ms-letter-spacing: 0.005em;
+  letter-spacing: 0.005em;
+  line-height: 2.4rem;
+  background-color: #D4A600;
+}
+
+.c0 b,
+.c0 strong {
+  font-weight: 800;
+}
+
+.c0.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+<div
+  class="c0"
+  role="alert"
+>
+  <div>
+    Warning alert
+  </div>
+</div>
+`;

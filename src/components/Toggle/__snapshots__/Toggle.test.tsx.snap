@@ -1,0 +1,393 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Toggle with initial active default size should match snapshot 1`] = `
+.c2 {
+  border: 0.2rem solid transparent;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  padding: 0.6rem 1.6rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.6rem;
+  background-color: #001254;
+  color: #FEFEFE;
+}
+
+.c2 b,
+.c2 strong {
+  font-weight: 800;
+}
+
+.c1 {
+  border: 0.2rem solid transparent;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  padding: 0.6rem 1.6rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.6rem;
+  background-color: transparent;
+  border: 0.1rem solid #001254;
+  box-sizing: border-box;
+  color: #001254;
+}
+
+.c1 b,
+.c1 strong {
+  font-weight: 800;
+}
+
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-wrap: no-wrap;
+  -ms-flex-wrap: no-wrap;
+  flex-wrap: no-wrap;
+}
+
+.c0 button:first-child {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.c0 button:last-child {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.c0 button:not(:first-child):not(:last-child) {
+  border-radius: 0;
+}
+
+.c0 button.toggle__button--inactive {
+  border-color: #E6E6E6;
+}
+
+.c0 button.toggle__button--active {
+  font-weight: 800;
+}
+
+<div
+  class="c0"
+>
+  <button
+    class="c1 toggle__button--inactive"
+  >
+    first
+  </button>
+  <button
+    class="c1 toggle__button--inactive"
+  >
+    second
+  </button>
+  <button
+    class="c2 toggle__button--active"
+  >
+    third
+  </button>
+</div>
+`;
+
+exports[`Toggle with initial active small size should match snapshot 1`] = `
+.c2 {
+  border: 0.2rem solid transparent;
+  cursor: pointer;
+  border-radius: 0.3rem;
+  padding: 0.2rem 1.6rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.6rem;
+  background-color: #001254;
+  color: #FEFEFE;
+}
+
+.c2 b,
+.c2 strong {
+  font-weight: 800;
+}
+
+.c1 {
+  border: 0.2rem solid transparent;
+  cursor: pointer;
+  border-radius: 0.3rem;
+  padding: 0.2rem 1.6rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.6rem;
+  background-color: transparent;
+  border: 0.1rem solid #001254;
+  box-sizing: border-box;
+  color: #001254;
+}
+
+.c1 b,
+.c1 strong {
+  font-weight: 800;
+}
+
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-wrap: no-wrap;
+  -ms-flex-wrap: no-wrap;
+  flex-wrap: no-wrap;
+}
+
+.c0 button:first-child {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.c0 button:last-child {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.c0 button:not(:first-child):not(:last-child) {
+  border-radius: 0;
+}
+
+.c0 button.toggle__button--inactive {
+  border-color: #E6E6E6;
+}
+
+.c0 button.toggle__button--active {
+  font-weight: 800;
+}
+
+<div
+  class="c0"
+>
+  <button
+    class="c1 toggle__button--inactive"
+  >
+    first
+  </button>
+  <button
+    class="c2 toggle__button--active"
+  >
+    second
+  </button>
+  <button
+    class="c1 toggle__button--inactive"
+  >
+    third
+  </button>
+</div>
+`;
+
+exports[`Toggle without initial active default size should match snapshot 1`] = `
+.c1 {
+  border: 0.2rem solid transparent;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  padding: 0.6rem 1.6rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.6rem;
+  background-color: #001254;
+  color: #FEFEFE;
+}
+
+.c1 b,
+.c1 strong {
+  font-weight: 800;
+}
+
+.c2 {
+  border: 0.2rem solid transparent;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  padding: 0.6rem 1.6rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.6rem;
+  background-color: transparent;
+  border: 0.1rem solid #001254;
+  box-sizing: border-box;
+  color: #001254;
+}
+
+.c2 b,
+.c2 strong {
+  font-weight: 800;
+}
+
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-wrap: no-wrap;
+  -ms-flex-wrap: no-wrap;
+  flex-wrap: no-wrap;
+}
+
+.c0 button:first-child {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.c0 button:last-child {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.c0 button:not(:first-child):not(:last-child) {
+  border-radius: 0;
+}
+
+.c0 button.toggle__button--inactive {
+  border-color: #E6E6E6;
+}
+
+.c0 button.toggle__button--active {
+  font-weight: 800;
+}
+
+<div
+  class="c0"
+>
+  <button
+    class="c1 toggle__button--active"
+  >
+    first
+  </button>
+  <button
+    class="c2 toggle__button--inactive"
+  >
+    second
+  </button>
+  <button
+    class="c2 toggle__button--inactive"
+  >
+    third
+  </button>
+</div>
+`;
+
+exports[`Toggle without initial active small size should match snapshot 1`] = `
+.c1 {
+  border: 0.2rem solid transparent;
+  cursor: pointer;
+  border-radius: 0.3rem;
+  padding: 0.2rem 1.6rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.6rem;
+  background-color: #001254;
+  color: #FEFEFE;
+}
+
+.c1 b,
+.c1 strong {
+  font-weight: 800;
+}
+
+.c2 {
+  border: 0.2rem solid transparent;
+  cursor: pointer;
+  border-radius: 0.3rem;
+  padding: 0.2rem 1.6rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.6rem;
+  background-color: transparent;
+  border: 0.1rem solid #001254;
+  box-sizing: border-box;
+  color: #001254;
+}
+
+.c2 b,
+.c2 strong {
+  font-weight: 800;
+}
+
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-wrap: no-wrap;
+  -ms-flex-wrap: no-wrap;
+  flex-wrap: no-wrap;
+}
+
+.c0 button:first-child {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.c0 button:last-child {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.c0 button:not(:first-child):not(:last-child) {
+  border-radius: 0;
+}
+
+.c0 button.toggle__button--inactive {
+  border-color: #E6E6E6;
+}
+
+.c0 button.toggle__button--active {
+  font-weight: 800;
+}
+
+<div
+  class="c0"
+>
+  <button
+    class="c1 toggle__button--active"
+  >
+    first
+  </button>
+  <button
+    class="c2 toggle__button--inactive"
+  >
+    second
+  </button>
+  <button
+    class="c2 toggle__button--inactive"
+  >
+    third
+  </button>
+</div>
+`;

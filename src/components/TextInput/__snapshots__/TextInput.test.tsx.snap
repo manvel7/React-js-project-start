@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextInput Default should match snapshot 1`] = `
+.c1 {
+  background-color: #F7F7F7;
+  border: 0.2rem solid #E6E6E6;
+  border-radius: 0.4rem;
+  color: #232323;
+  display: block;
+  padding: 0.8rem 1.6rem;
+  width: 100%;
+  font-size: 1.6rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 2.4rem;
+}
+
+.c1:focus {
+  background-color: #FEFEFE;
+  border: 0.2rem solid #000A62;
+}
+
+.c1:disabled {
+  background-color: #F7F7F7;
+  border: 0.2rem solid #E6E6E6;
+  color: #808080;
+}
+
+.c1::-webkit-input-placeholder {
+  color: #808080;
+}
+
+.c1::-moz-placeholder {
+  color: #808080;
+}
+
+.c1:-ms-input-placeholder {
+  color: #808080;
+}
+
+.c1::placeholder {
+  color: #808080;
+}
+
+.c0 {
+  color: #232323;
+  display: inline-block;
+  font-size: 1.6rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.6rem;
+  margin-bottom: 0.8rem;
+  width: 100%;
+}
+
+.c0 b,
+.c0 strong {
+  font-weight: 800;
+}
+
+<div>
+  <label
+    class="c0"
+    for="test-1"
+  >
+    Label
+  </label>
+  <input
+    class="c1"
+    id="test-1"
+    name="test-1"
+    placeholder="Placeholder"
+    value=""
+  />
+</div>
+`;
+
+exports[`TextInput Disabled should match snapshot 1`] = `
+.c1 {
+  background-color: #F7F7F7;
+  border: 0.2rem solid #E6E6E6;
+  border-radius: 0.4rem;
+  color: #232323;
+  display: block;
+  padding: 0.8rem 1.6rem;
+  width: 100%;
+  font-size: 1.6rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 2.4rem;
+}
+
+.c1:focus {
+  background-color: #FEFEFE;
+  border: 0.2rem solid #000A62;
+}
+
+.c1:disabled {
+  background-color: #F7F7F7;
+  border: 0.2rem solid #E6E6E6;
+  color: #808080;
+}
+
+.c1::-webkit-input-placeholder {
+  color: #808080;
+}
+
+.c1::-moz-placeholder {
+  color: #808080;
+}
+
+.c1:-ms-input-placeholder {
+  color: #808080;
+}
+
+.c1::placeholder {
+  color: #808080;
+}
+
+.c0 {
+  color: #808080;
+  display: inline-block;
+  font-size: 1.4rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.6rem;
+  margin-bottom: 0.8rem;
+  width: 100%;
+}
+
+.c0 b,
+.c0 strong {
+  font-weight: 800;
+}
+
+<div>
+  <label
+    class="c0"
+    disabled=""
+    for="test-2"
+  >
+    Disabled
+  </label>
+  <input
+    class="c1"
+    disabled=""
+    id="test-2"
+    name="test-2"
+    placeholder="Placeholder"
+    value=""
+  />
+</div>
+`;

@@ -1,0 +1,391 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table Regular should match snapshot 1`] = `
+.c0 {
+  border-collapse: separate;
+  border-spacing: 0 0.8rem;
+  color: #232323;
+  width: 100%;
+  font-size: 1.4rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.6rem;
+}
+
+.c0 b,
+.c0 strong {
+  font-weight: 800;
+}
+
+.c4 {
+  padding: 0.8rem;
+}
+
+.c1 tr {
+  background-color: transparent;
+}
+
+.c1 th {
+  text-align: right;
+}
+
+.c1 th:first-child {
+  text-align: left;
+}
+
+.c3 {
+  padding: 0 0.8rem;
+}
+
+.c2 {
+  background-color: #F7F7F7;
+}
+
+.c2 td,
+.c2 th {
+  text-align: right;
+}
+
+.c2 td:first-child,
+.c2 th:first-child {
+  text-align: left;
+  border-radius: 0.4rem 0 0 0.4rem;
+}
+
+.c2 td:last-child,
+.c2 th:last-child {
+  border-radius: 0 0.4rem 0.4rem 0;
+}
+
+.c5 {
+  background-color: #F7F7F7;
+  background-color: #E6E6E6 !important;
+  color: #808080 !important;
+}
+
+.c5 td,
+.c5 th {
+  text-align: right;
+}
+
+.c5 td:first-child,
+.c5 th:first-child {
+  text-align: left;
+  border-radius: 0.4rem 0 0 0.4rem;
+}
+
+.c5 td:last-child,
+.c5 th:last-child {
+  border-radius: 0 0.4rem 0.4rem 0;
+}
+
+<table
+  class="c0"
+>
+  <thead
+    class="c1"
+  >
+    <tr
+      class="c2"
+    >
+      <th
+        class="c3"
+      >
+        Species
+      </th>
+      <th
+        class="c3"
+      >
+        Log (m3/ha)
+      </th>
+      <th
+        class="c3"
+      >
+        Average height (m)
+      </th>
+      <th
+        class="c3"
+      >
+        Average diameter (cm)
+      </th>
+    </tr>
+  </thead>
+  <tbody
+    class=""
+  >
+    <tr
+      class="c2"
+    >
+      <td
+        class="c4"
+      >
+        Spruce
+      </td>
+      <td
+        class="c4"
+      >
+        290
+      </td>
+      <td
+        class="c4"
+      >
+        29
+      </td>
+      <td
+        class="c4"
+      >
+        234
+      </td>
+    </tr>
+    <tr
+      class="c2"
+    >
+      <td
+        class="c4"
+      >
+        Dedicious
+      </td>
+      <td
+        class="c4"
+      >
+        329
+      </td>
+      <td
+        class="c4"
+      >
+        32
+      </td>
+      <td
+        class="c4"
+      >
+        329
+      </td>
+    </tr>
+    <tr
+      class="c5"
+      disabled=""
+    >
+      <td
+        class="c4"
+      >
+        Spruce
+      </td>
+      <td
+        class="c4"
+      >
+        290
+      </td>
+      <td
+        class="c4"
+      >
+        29
+      </td>
+      <td
+        class="c4"
+      >
+        234
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`Table Striped should match snapshot 1`] = `
+.c0 {
+  border-collapse: separate;
+  border-spacing: 0 0.8rem;
+  color: #232323;
+  width: 100%;
+  font-size: 1.4rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.6rem;
+}
+
+.c0 b,
+.c0 strong {
+  font-weight: 800;
+}
+
+.c0 tbody tr:nth-of-type(odd) {
+  background-color: #FEFEFE;
+}
+
+.c4 {
+  padding: 0.8rem;
+}
+
+.c1 tr {
+  background-color: transparent;
+}
+
+.c1 th {
+  text-align: right;
+}
+
+.c1 th:first-child {
+  text-align: left;
+}
+
+.c3 {
+  padding: 0 0.8rem;
+}
+
+.c2 {
+  background-color: #F7F7F7;
+}
+
+.c2 td,
+.c2 th {
+  text-align: right;
+}
+
+.c2 td:first-child,
+.c2 th:first-child {
+  text-align: left;
+  border-radius: 0.4rem 0 0 0.4rem;
+}
+
+.c2 td:last-child,
+.c2 th:last-child {
+  border-radius: 0 0.4rem 0.4rem 0;
+}
+
+.c5 {
+  background-color: #F7F7F7;
+  background-color: #E6E6E6 !important;
+  color: #808080 !important;
+}
+
+.c5 td,
+.c5 th {
+  text-align: right;
+}
+
+.c5 td:first-child,
+.c5 th:first-child {
+  text-align: left;
+  border-radius: 0.4rem 0 0 0.4rem;
+}
+
+.c5 td:last-child,
+.c5 th:last-child {
+  border-radius: 0 0.4rem 0.4rem 0;
+}
+
+<table
+  class="c0"
+>
+  <thead
+    class="c1"
+  >
+    <tr
+      class="c2"
+    >
+      <th
+        class="c3"
+      >
+        Species
+      </th>
+      <th
+        class="c3"
+      >
+        Log (m3/ha)
+      </th>
+      <th
+        class="c3"
+      >
+        Average height (m)
+      </th>
+      <th
+        class="c3"
+      >
+        Average diameter (cm)
+      </th>
+    </tr>
+  </thead>
+  <tbody
+    class=""
+  >
+    <tr
+      class="c2"
+    >
+      <td
+        class="c4"
+      >
+        Spruce
+      </td>
+      <td
+        class="c4"
+      >
+        290
+      </td>
+      <td
+        class="c4"
+      >
+        29
+      </td>
+      <td
+        class="c4"
+      >
+        234
+      </td>
+    </tr>
+    <tr
+      class="c2"
+    >
+      <td
+        class="c4"
+      >
+        Dedicious
+      </td>
+      <td
+        class="c4"
+      >
+        329
+      </td>
+      <td
+        class="c4"
+      >
+        32
+      </td>
+      <td
+        class="c4"
+      >
+        329
+      </td>
+    </tr>
+    <tr
+      class="c5"
+      disabled=""
+    >
+      <td
+        class="c4"
+      >
+        Spruce
+      </td>
+      <td
+        class="c4"
+      >
+        290
+      </td>
+      <td
+        class="c4"
+      >
+        29
+      </td>
+      <td
+        class="c4"
+      >
+        234
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;

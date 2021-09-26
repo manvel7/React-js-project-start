@@ -1,0 +1,502 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox Dashed checkbox checked should match snapshot 1`] = `
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #232323;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.6rem;
+}
+
+.c0 b,
+.c0 strong {
+  font-weight: 800;
+}
+
+.c1 {
+  border: 0;
+  height: 0.1rem;
+  margin: -0.1rem;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 0.1rem;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #FEFEFE;
+  border: 0.1rem solid #001254;
+  border-radius: 0.4rem;
+  color: #001254;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 1.6rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-right: 1.6rem;
+  -webkit-transition: all 150ms;
+  transition: all 150ms;
+  width: 1.6rem;
+}
+
+.c2 svg {
+  visibility: visible;
+}
+
+<label
+  class="c0"
+>
+  <input
+    checked=""
+    class="c1"
+    type="checkbox"
+  />
+  <div
+    class="c2"
+  >
+    <svg
+      aria-hidden="true"
+      class="svg-inline--fa fa-minus-square fa-w-14 "
+      data-icon="minus-square"
+      data-prefix="fas"
+      focusable="false"
+      role="img"
+      viewBox="0 0 448 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zM92 296c-6.6 0-12-5.4-12-12v-56c0-6.6 5.4-12 12-12h264c6.6 0 12 5.4 12 12v56c0 6.6-5.4 12-12 12H92z"
+        fill="currentColor"
+      />
+    </svg>
+  </div>
+</label>
+`;
+
+exports[`Checkbox Dashed disabled checkbox checked should match snapshot 1`] = `
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #808080;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.6rem;
+}
+
+.c0 b,
+.c0 strong {
+  font-weight: 800;
+}
+
+.c1 {
+  border: 0;
+  height: 0.1rem;
+  margin: -0.1rem;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 0.1rem;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #FEFEFE;
+  border: 0.1rem solid #001254;
+  border-radius: 0.4rem;
+  color: #001254;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 1.6rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-right: 1.6rem;
+  -webkit-transition: all 150ms;
+  transition: all 150ms;
+  width: 1.6rem;
+  background: #808080;
+  border-color: #DDDDDD;
+  color: #DDDDDD;
+}
+
+.c2 svg {
+  visibility: visible;
+}
+
+<label
+  class="c0"
+  disabled=""
+>
+  <input
+    checked=""
+    class="c1"
+    disabled=""
+    type="checkbox"
+  />
+  <div
+    class="c2"
+    disabled=""
+  >
+    <svg
+      aria-hidden="true"
+      class="svg-inline--fa fa-minus-square fa-w-14 "
+      data-icon="minus-square"
+      data-prefix="fas"
+      focusable="false"
+      role="img"
+      viewBox="0 0 448 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zM92 296c-6.6 0-12-5.4-12-12v-56c0-6.6 5.4-12 12-12h264c6.6 0 12 5.4 12 12v56c0 6.6-5.4 12-12 12H92z"
+        fill="currentColor"
+      />
+    </svg>
+  </div>
+</label>
+`;
+
+exports[`Checkbox Default checked should match snapshot 1`] = `
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #232323;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.6rem;
+}
+
+.c0 b,
+.c0 strong {
+  font-weight: 800;
+}
+
+.c1 {
+  border: 0;
+  height: 0.1rem;
+  margin: -0.1rem;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 0.1rem;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #FEFEFE;
+  border: 0.1rem solid #001254;
+  border-radius: 0.4rem;
+  color: #001254;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 1.6rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-right: 1.6rem;
+  -webkit-transition: all 150ms;
+  transition: all 150ms;
+  width: 1.6rem;
+}
+
+.c2 svg {
+  visibility: visible;
+}
+
+<label
+  class="c0"
+>
+  <input
+    checked=""
+    class="c1"
+    type="checkbox"
+  />
+  <div
+    class="c2"
+  >
+    <svg
+      aria-hidden="true"
+      class="svg-inline--fa fa-check-square fa-w-14 "
+      data-icon="check-square"
+      data-prefix="fas"
+      focusable="false"
+      role="img"
+      viewBox="0 0 448 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M400 480H48c-26.51 0-48-21.49-48-48V80c0-26.51 21.49-48 48-48h352c26.51 0 48 21.49 48 48v352c0 26.51-21.49 48-48 48zm-204.686-98.059l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.248-16.379-6.249-22.628 0L184 302.745l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.25 16.379 6.25 22.628.001z"
+        fill="currentColor"
+      />
+    </svg>
+  </div>
+</label>
+`;
+
+exports[`Checkbox Default should match snapshot 1`] = `
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #232323;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.6rem;
+}
+
+.c0 b,
+.c0 strong {
+  font-weight: 800;
+}
+
+.c1 {
+  border: 0;
+  height: 0.1rem;
+  margin: -0.1rem;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 0.1rem;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #FEFEFE;
+  border: 0.1rem solid #001254;
+  border-radius: 0.4rem;
+  color: #001254;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 1.6rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-right: 1.6rem;
+  -webkit-transition: all 150ms;
+  transition: all 150ms;
+  width: 1.6rem;
+}
+
+.c2 svg {
+  visibility: hidden;
+}
+
+<label
+  class="c0"
+>
+  <input
+    class="c1"
+    type="checkbox"
+  />
+  <div
+    class="c2"
+  >
+    <svg
+      aria-hidden="true"
+      class="svg-inline--fa fa-check-square fa-w-14 "
+      data-icon="check-square"
+      data-prefix="fas"
+      focusable="false"
+      role="img"
+      viewBox="0 0 448 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M400 480H48c-26.51 0-48-21.49-48-48V80c0-26.51 21.49-48 48-48h352c26.51 0 48 21.49 48 48v352c0 26.51-21.49 48-48 48zm-204.686-98.059l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.248-16.379-6.249-22.628 0L184 302.745l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.25 16.379 6.25 22.628.001z"
+        fill="currentColor"
+      />
+    </svg>
+  </div>
+</label>
+`;
+
+exports[`Checkbox Disabled checked should match snapshot 1`] = `
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #808080;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.6rem;
+}
+
+.c0 b,
+.c0 strong {
+  font-weight: 800;
+}
+
+.c1 {
+  border: 0;
+  height: 0.1rem;
+  margin: -0.1rem;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 0.1rem;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #FEFEFE;
+  border: 0.1rem solid #001254;
+  border-radius: 0.4rem;
+  color: #001254;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 1.6rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-right: 1.6rem;
+  -webkit-transition: all 150ms;
+  transition: all 150ms;
+  width: 1.6rem;
+  background: #808080;
+  border-color: #DDDDDD;
+  color: #DDDDDD;
+}
+
+.c2 svg {
+  visibility: visible;
+}
+
+<label
+  class="c0"
+  disabled=""
+>
+  <input
+    checked=""
+    class="c1"
+    disabled=""
+    type="checkbox"
+  />
+  <div
+    class="c2"
+    disabled=""
+  >
+    <svg
+      aria-hidden="true"
+      class="svg-inline--fa fa-check-square fa-w-14 "
+      data-icon="check-square"
+      data-prefix="fas"
+      focusable="false"
+      role="img"
+      viewBox="0 0 448 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M400 480H48c-26.51 0-48-21.49-48-48V80c0-26.51 21.49-48 48-48h352c26.51 0 48 21.49 48 48v352c0 26.51-21.49 48-48 48zm-204.686-98.059l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.248-16.379-6.249-22.628 0L184 302.745l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.25 16.379 6.25 22.628.001z"
+        fill="currentColor"
+      />
+    </svg>
+  </div>
+</label>
+`;

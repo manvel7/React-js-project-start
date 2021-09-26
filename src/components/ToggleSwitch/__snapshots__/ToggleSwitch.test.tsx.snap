@@ -1,0 +1,335 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ToggleSwitch Default checked should match snapshot 1`] = `
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.8rem;
+}
+
+.c1 {
+  border: 0;
+  -webkit-clip: rect(0 0 0 0);
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  height: 0.1rem;
+  margin: -0.1rem;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 0.1rem;
+}
+
+.c2 {
+  background-color: #E6E6E6;
+  border-radius: 0.4rem;
+  display: inline-block;
+  height: 0.8rem;
+  margin-right: 0;
+  position: relative;
+  -webkit-transition: background-color 0.1s cubic-bezier(0.47,0.09,0.86,0.68);
+  transition: background-color 0.1s cubic-bezier(0.47,0.09,0.86,0.68);
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+  width: 3.2rem;
+  background-color: #001254;
+}
+
+.c2 .toggle-switch__dot {
+  background-color: #001254;
+  border-radius: 50%;
+  height: 1.6rem;
+  left: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%) translateX(calc(-50% + 0.4rem));
+  -ms-transform: translateY(-50%) translateX(calc(-50% + 0.4rem));
+  transform: translateY(-50%) translateX(calc(-50% + 0.4rem));
+  -webkit-transition: left 0.2s cubic-bezier(0.47,0.09,0.86,0.68);
+  transition: left 0.2s cubic-bezier(0.47,0.09,0.86,0.68);
+  width: 1.6rem;
+}
+
+.c2 .toggle-switch__dot {
+  left: calc(100% - 0.8rem);
+}
+
+<label
+  class="c0"
+>
+  <input
+    checked=""
+    class="c1"
+    type="checkbox"
+  />
+  <div
+    class="c2"
+  >
+    <div
+      class="toggle-switch__dot"
+    />
+  </div>
+</label>
+`;
+
+exports[`ToggleSwitch Default should match snapshot 1`] = `
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.8rem;
+}
+
+.c1 {
+  border: 0;
+  -webkit-clip: rect(0 0 0 0);
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  height: 0.1rem;
+  margin: -0.1rem;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 0.1rem;
+}
+
+.c2 {
+  background-color: #E6E6E6;
+  border-radius: 0.4rem;
+  display: inline-block;
+  height: 0.8rem;
+  margin-right: 0;
+  position: relative;
+  -webkit-transition: background-color 0.1s cubic-bezier(0.47,0.09,0.86,0.68);
+  transition: background-color 0.1s cubic-bezier(0.47,0.09,0.86,0.68);
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+  width: 3.2rem;
+}
+
+.c2 .toggle-switch__dot {
+  background-color: #001254;
+  border-radius: 50%;
+  height: 1.6rem;
+  left: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%) translateX(calc(-50% + 0.4rem));
+  -ms-transform: translateY(-50%) translateX(calc(-50% + 0.4rem));
+  transform: translateY(-50%) translateX(calc(-50% + 0.4rem));
+  -webkit-transition: left 0.2s cubic-bezier(0.47,0.09,0.86,0.68);
+  transition: left 0.2s cubic-bezier(0.47,0.09,0.86,0.68);
+  width: 1.6rem;
+}
+
+<label
+  class="c0"
+>
+  <input
+    class="c1"
+    type="checkbox"
+  />
+  <div
+    class="c2"
+  >
+    <div
+      class="toggle-switch__dot"
+    />
+  </div>
+</label>
+`;
+
+exports[`ToggleSwitch Disabled should match snapshot 1`] = `
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.8rem;
+}
+
+.c1 {
+  border: 0;
+  -webkit-clip: rect(0 0 0 0);
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  height: 0.1rem;
+  margin: -0.1rem;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 0.1rem;
+}
+
+.c2 {
+  background-color: #E6E6E6;
+  border-radius: 0.4rem;
+  display: inline-block;
+  height: 0.8rem;
+  margin-right: 0;
+  position: relative;
+  -webkit-transition: background-color 0.1s cubic-bezier(0.47,0.09,0.86,0.68);
+  transition: background-color 0.1s cubic-bezier(0.47,0.09,0.86,0.68);
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+  width: 3.2rem;
+  background-color: #DDDDDD;
+}
+
+.c2 .toggle-switch__dot {
+  background-color: #001254;
+  border-radius: 50%;
+  height: 1.6rem;
+  left: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%) translateX(calc(-50% + 0.4rem));
+  -ms-transform: translateY(-50%) translateX(calc(-50% + 0.4rem));
+  transform: translateY(-50%) translateX(calc(-50% + 0.4rem));
+  -webkit-transition: left 0.2s cubic-bezier(0.47,0.09,0.86,0.68);
+  transition: left 0.2s cubic-bezier(0.47,0.09,0.86,0.68);
+  width: 1.6rem;
+}
+
+.c2 .toggle-switch__dot {
+  background-color: #808080;
+}
+
+<label
+  class="c0"
+>
+  <input
+    class="c1"
+    disabled=""
+    type="checkbox"
+  />
+  <div
+    class="c2"
+    disabled=""
+  >
+    <div
+      class="toggle-switch__dot"
+    />
+  </div>
+</label>
+`;
+
+exports[`ToggleSwitch Error should match snapshot 1`] = `
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.8rem;
+}
+
+.c1 {
+  border: 0;
+  -webkit-clip: rect(0 0 0 0);
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  height: 0.1rem;
+  margin: -0.1rem;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 0.1rem;
+}
+
+.c2 {
+  background-color: #E6E6E6;
+  border-radius: 0.4rem;
+  display: inline-block;
+  height: 0.8rem;
+  margin-right: 0;
+  position: relative;
+  -webkit-transition: background-color 0.1s cubic-bezier(0.47,0.09,0.86,0.68);
+  transition: background-color 0.1s cubic-bezier(0.47,0.09,0.86,0.68);
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+  width: 3.2rem;
+  background-color: #E6E6E6;
+}
+
+.c2 .toggle-switch__dot {
+  background-color: #001254;
+  border-radius: 50%;
+  height: 1.6rem;
+  left: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%) translateX(calc(-50% + 0.4rem));
+  -ms-transform: translateY(-50%) translateX(calc(-50% + 0.4rem));
+  transform: translateY(-50%) translateX(calc(-50% + 0.4rem));
+  -webkit-transition: left 0.2s cubic-bezier(0.47,0.09,0.86,0.68);
+  transition: left 0.2s cubic-bezier(0.47,0.09,0.86,0.68);
+  width: 1.6rem;
+}
+
+.c2 .toggle-switch__dot {
+  background-color: #CA0000;
+}
+
+<label
+  class="c0"
+>
+  <input
+    class="c1"
+    type="checkbox"
+  />
+  <div
+    class="c2"
+  >
+    <div
+      class="toggle-switch__dot"
+    />
+  </div>
+</label>
+`;

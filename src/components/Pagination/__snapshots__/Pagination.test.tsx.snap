@@ -1,0 +1,850 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pagination Circle variant with large size should match snapshot 1`] = `
+.c1 {
+  border: 0.2rem solid transparent;
+  cursor: pointer;
+  border-radius: 0.8rem;
+  padding: 0.8rem 1.6rem;
+  font-size: 2.2rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0.005em;
+  -moz-letter-spacing: 0.005em;
+  -ms-letter-spacing: 0.005em;
+  letter-spacing: 0.005em;
+  line-height: 2.4rem;
+  background-color: transparent;
+  color: #001254;
+}
+
+.c1 b,
+.c1 strong {
+  font-weight: 800;
+}
+
+.c2 {
+  background-color: #F1F2F5;
+  border: none;
+  color: #001254;
+  cursor: pointer;
+  margin: 0 0.4rem;
+  min-height: 3.2rem;
+  min-width: 3.2rem;
+  padding: 0.4rem 0.8rem;
+  font-size: 2.2rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0.005em;
+  -moz-letter-spacing: 0.005em;
+  -ms-letter-spacing: 0.005em;
+  letter-spacing: 0.005em;
+  line-height: 2.4rem;
+  border-radius: 10rem;
+  background-color: #001254;
+  color: #FEFEFE;
+}
+
+.c2[disabled] {
+  cursor: initial;
+}
+
+.c2:first-child {
+  margin-left: 0;
+}
+
+.c2:last-child {
+  margin-right: 0;
+}
+
+.c2 b,
+.c2 strong {
+  font-weight: 800;
+}
+
+.c3 {
+  background-color: #F1F2F5;
+  border: none;
+  color: #001254;
+  cursor: pointer;
+  margin: 0 0.4rem;
+  min-height: 3.2rem;
+  min-width: 3.2rem;
+  padding: 0.4rem 0.8rem;
+  font-size: 2.2rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0.005em;
+  -moz-letter-spacing: 0.005em;
+  -ms-letter-spacing: 0.005em;
+  letter-spacing: 0.005em;
+  line-height: 2.4rem;
+  border-radius: 10rem;
+}
+
+.c3[disabled] {
+  cursor: initial;
+}
+
+.c3:first-child {
+  margin-left: 0;
+}
+
+.c3:last-child {
+  margin-right: 0;
+}
+
+.c3 b,
+.c3 strong {
+  font-weight: 800;
+}
+
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+<div
+  class="c0"
+>
+  <button
+    class="c1 hidden"
+  >
+    <svg
+      aria-hidden="true"
+      class="svg-inline--fa fa-angle-left fa-w-8 "
+      data-icon="angle-left"
+      data-prefix="fas"
+      focusable="false"
+      role="img"
+      style="margin-right: 0.8rem;"
+      viewBox="0 0 256 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z"
+        fill="currentColor"
+      />
+    </svg>
+    Previous
+  </button>
+  <button
+    class="c2"
+    disabled=""
+  >
+    1
+  </button>
+  <button
+    class="c3"
+  >
+    2
+  </button>
+  <button
+    class="c3"
+  >
+    3
+  </button>
+  <button
+    class="c1"
+  >
+    Next
+    <svg
+      aria-hidden="true"
+      class="svg-inline--fa fa-angle-right fa-w-8 "
+      data-icon="angle-right"
+      data-prefix="fas"
+      focusable="false"
+      role="img"
+      style="margin-left: 0.8rem;"
+      viewBox="0 0 256 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"
+        fill="currentColor"
+      />
+    </svg>
+  </button>
+</div>
+`;
+
+exports[`Pagination Circle variant with medium size should match snapshot 1`] = `
+.c1 {
+  border: 0.2rem solid transparent;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  padding: 0.6rem 1.6rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.6rem;
+  background-color: transparent;
+  color: #001254;
+}
+
+.c1 b,
+.c1 strong {
+  font-weight: 800;
+}
+
+.c2 {
+  background-color: #F1F2F5;
+  border: none;
+  color: #001254;
+  cursor: pointer;
+  margin: 0 0.4rem;
+  min-height: 3.2rem;
+  min-width: 3.2rem;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0.005em;
+  -moz-letter-spacing: 0.005em;
+  -ms-letter-spacing: 0.005em;
+  letter-spacing: 0.005em;
+  line-height: 2.4rem;
+  border-radius: 10rem;
+  background-color: #001254;
+  color: #FEFEFE;
+}
+
+.c2[disabled] {
+  cursor: initial;
+}
+
+.c2:first-child {
+  margin-left: 0;
+}
+
+.c2:last-child {
+  margin-right: 0;
+}
+
+.c2 b,
+.c2 strong {
+  font-weight: 800;
+}
+
+.c3 {
+  background-color: #F1F2F5;
+  border: none;
+  color: #001254;
+  cursor: pointer;
+  margin: 0 0.4rem;
+  min-height: 3.2rem;
+  min-width: 3.2rem;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0.005em;
+  -moz-letter-spacing: 0.005em;
+  -ms-letter-spacing: 0.005em;
+  letter-spacing: 0.005em;
+  line-height: 2.4rem;
+  border-radius: 10rem;
+}
+
+.c3[disabled] {
+  cursor: initial;
+}
+
+.c3:first-child {
+  margin-left: 0;
+}
+
+.c3:last-child {
+  margin-right: 0;
+}
+
+.c3 b,
+.c3 strong {
+  font-weight: 800;
+}
+
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+<div
+  class="c0"
+>
+  <button
+    class="c1 hidden"
+  >
+    <svg
+      aria-hidden="true"
+      class="svg-inline--fa fa-angle-left fa-w-8 "
+      data-icon="angle-left"
+      data-prefix="fas"
+      focusable="false"
+      role="img"
+      style="margin-right: 0.8rem;"
+      viewBox="0 0 256 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z"
+        fill="currentColor"
+      />
+    </svg>
+    Previous
+  </button>
+  <button
+    class="c2"
+    disabled=""
+  >
+    1
+  </button>
+  <button
+    class="c3"
+  >
+    2
+  </button>
+  <button
+    class="c3"
+  >
+    3
+  </button>
+  <button
+    class="c1"
+  >
+    Next
+    <svg
+      aria-hidden="true"
+      class="svg-inline--fa fa-angle-right fa-w-8 "
+      data-icon="angle-right"
+      data-prefix="fas"
+      focusable="false"
+      role="img"
+      style="margin-left: 0.8rem;"
+      viewBox="0 0 256 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"
+        fill="currentColor"
+      />
+    </svg>
+  </button>
+</div>
+`;
+
+exports[`Pagination Circle variant without numbers should match snapshot 1`] = `
+.c1 {
+  border: 0.2rem solid transparent;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  padding: 0.6rem 1.6rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.6rem;
+  background-color: transparent;
+  color: #001254;
+}
+
+.c1 b,
+.c1 strong {
+  font-weight: 800;
+}
+
+.c2 {
+  background-color: #F1F2F5;
+  border: none;
+  color: #001254;
+  cursor: pointer;
+  margin: 0 0.4rem;
+  min-height: 3.2rem;
+  min-width: 3.2rem;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0.005em;
+  -moz-letter-spacing: 0.005em;
+  -ms-letter-spacing: 0.005em;
+  letter-spacing: 0.005em;
+  line-height: 2.4rem;
+  border-radius: 10rem;
+  background-color: #001254;
+  color: #FEFEFE;
+}
+
+.c2[disabled] {
+  cursor: initial;
+}
+
+.c2:first-child {
+  margin-left: 0;
+}
+
+.c2:last-child {
+  margin-right: 0;
+}
+
+.c2 b,
+.c2 strong {
+  font-weight: 800;
+}
+
+.c3 {
+  background-color: #F1F2F5;
+  border: none;
+  color: #001254;
+  cursor: pointer;
+  margin: 0 0.4rem;
+  min-height: 3.2rem;
+  min-width: 3.2rem;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0.005em;
+  -moz-letter-spacing: 0.005em;
+  -ms-letter-spacing: 0.005em;
+  letter-spacing: 0.005em;
+  line-height: 2.4rem;
+  border-radius: 10rem;
+}
+
+.c3[disabled] {
+  cursor: initial;
+}
+
+.c3:first-child {
+  margin-left: 0;
+}
+
+.c3:last-child {
+  margin-right: 0;
+}
+
+.c3 b,
+.c3 strong {
+  font-weight: 800;
+}
+
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+<div
+  class="c0"
+>
+  <button
+    class="c1 hidden"
+  >
+    <svg
+      aria-hidden="true"
+      class="svg-inline--fa fa-angle-left fa-w-8 "
+      data-icon="angle-left"
+      data-prefix="fas"
+      focusable="false"
+      role="img"
+      style="margin-right: 0.8rem;"
+      viewBox="0 0 256 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z"
+        fill="currentColor"
+      />
+    </svg>
+    Previous
+  </button>
+  <button
+    class="c2"
+    disabled=""
+  />
+  <button
+    class="c3"
+  />
+  <button
+    class="c3"
+  />
+  <button
+    class="c1"
+  >
+    Next
+    <svg
+      aria-hidden="true"
+      class="svg-inline--fa fa-angle-right fa-w-8 "
+      data-icon="angle-right"
+      data-prefix="fas"
+      focusable="false"
+      role="img"
+      style="margin-left: 0.8rem;"
+      viewBox="0 0 256 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"
+        fill="currentColor"
+      />
+    </svg>
+  </button>
+</div>
+`;
+
+exports[`Pagination Default variant with large size should match snapshot 1`] = `
+.c1 {
+  border: 0.2rem solid transparent;
+  cursor: pointer;
+  border-radius: 0.8rem;
+  padding: 0.8rem 1.6rem;
+  font-size: 2.2rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0.005em;
+  -moz-letter-spacing: 0.005em;
+  -ms-letter-spacing: 0.005em;
+  letter-spacing: 0.005em;
+  line-height: 2.4rem;
+  background-color: transparent;
+  color: #001254;
+}
+
+.c1 b,
+.c1 strong {
+  font-weight: 800;
+}
+
+.c2 {
+  background-color: #F1F2F5;
+  border: none;
+  color: #001254;
+  cursor: pointer;
+  margin: 0 0.4rem;
+  min-height: 3.2rem;
+  min-width: 3.2rem;
+  padding: 0.4rem 0.8rem;
+  font-size: 2.2rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0.005em;
+  -moz-letter-spacing: 0.005em;
+  -ms-letter-spacing: 0.005em;
+  letter-spacing: 0.005em;
+  line-height: 2.4rem;
+  border-radius: 0.4rem;
+  background-color: #001254;
+  color: #FEFEFE;
+}
+
+.c2[disabled] {
+  cursor: initial;
+}
+
+.c2:first-child {
+  margin-left: 0;
+}
+
+.c2:last-child {
+  margin-right: 0;
+}
+
+.c2 b,
+.c2 strong {
+  font-weight: 800;
+}
+
+.c3 {
+  background-color: #F1F2F5;
+  border: none;
+  color: #001254;
+  cursor: pointer;
+  margin: 0 0.4rem;
+  min-height: 3.2rem;
+  min-width: 3.2rem;
+  padding: 0.4rem 0.8rem;
+  font-size: 2.2rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0.005em;
+  -moz-letter-spacing: 0.005em;
+  -ms-letter-spacing: 0.005em;
+  letter-spacing: 0.005em;
+  line-height: 2.4rem;
+  border-radius: 0.4rem;
+}
+
+.c3[disabled] {
+  cursor: initial;
+}
+
+.c3:first-child {
+  margin-left: 0;
+}
+
+.c3:last-child {
+  margin-right: 0;
+}
+
+.c3 b,
+.c3 strong {
+  font-weight: 800;
+}
+
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+<div
+  class="c0"
+>
+  <button
+    class="c1 hidden"
+  >
+    <svg
+      aria-hidden="true"
+      class="svg-inline--fa fa-angle-left fa-w-8 "
+      data-icon="angle-left"
+      data-prefix="fas"
+      focusable="false"
+      role="img"
+      style="margin-right: 0.8rem;"
+      viewBox="0 0 256 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z"
+        fill="currentColor"
+      />
+    </svg>
+    Previous
+  </button>
+  <button
+    class="c2"
+    disabled=""
+  >
+    1
+  </button>
+  <button
+    class="c3"
+  >
+    2
+  </button>
+  <button
+    class="c3"
+  >
+    3
+  </button>
+  <button
+    class="c1"
+  >
+    Next
+    <svg
+      aria-hidden="true"
+      class="svg-inline--fa fa-angle-right fa-w-8 "
+      data-icon="angle-right"
+      data-prefix="fas"
+      focusable="false"
+      role="img"
+      style="margin-left: 0.8rem;"
+      viewBox="0 0 256 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"
+        fill="currentColor"
+      />
+    </svg>
+  </button>
+</div>
+`;
+
+exports[`Pagination Default variant with medium size should match snapshot 1`] = `
+.c1 {
+  border: 0.2rem solid transparent;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  padding: 0.6rem 1.6rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.6rem;
+  background-color: transparent;
+  color: #001254;
+}
+
+.c1 b,
+.c1 strong {
+  font-weight: 800;
+}
+
+.c2 {
+  background-color: #F1F2F5;
+  border: none;
+  color: #001254;
+  cursor: pointer;
+  margin: 0 0.4rem;
+  min-height: 3.2rem;
+  min-width: 3.2rem;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0.005em;
+  -moz-letter-spacing: 0.005em;
+  -ms-letter-spacing: 0.005em;
+  letter-spacing: 0.005em;
+  line-height: 2.4rem;
+  border-radius: 0.4rem;
+  background-color: #001254;
+  color: #FEFEFE;
+}
+
+.c2[disabled] {
+  cursor: initial;
+}
+
+.c2:first-child {
+  margin-left: 0;
+}
+
+.c2:last-child {
+  margin-right: 0;
+}
+
+.c2 b,
+.c2 strong {
+  font-weight: 800;
+}
+
+.c3 {
+  background-color: #F1F2F5;
+  border: none;
+  color: #001254;
+  cursor: pointer;
+  margin: 0 0.4rem;
+  min-height: 3.2rem;
+  min-width: 3.2rem;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0.005em;
+  -moz-letter-spacing: 0.005em;
+  -ms-letter-spacing: 0.005em;
+  letter-spacing: 0.005em;
+  line-height: 2.4rem;
+  border-radius: 0.4rem;
+}
+
+.c3[disabled] {
+  cursor: initial;
+}
+
+.c3:first-child {
+  margin-left: 0;
+}
+
+.c3:last-child {
+  margin-right: 0;
+}
+
+.c3 b,
+.c3 strong {
+  font-weight: 800;
+}
+
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+<div
+  class="c0"
+>
+  <button
+    class="c1 hidden"
+  >
+    <svg
+      aria-hidden="true"
+      class="svg-inline--fa fa-angle-left fa-w-8 "
+      data-icon="angle-left"
+      data-prefix="fas"
+      focusable="false"
+      role="img"
+      style="margin-right: 0.8rem;"
+      viewBox="0 0 256 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z"
+        fill="currentColor"
+      />
+    </svg>
+    Previous
+  </button>
+  <button
+    class="c2"
+    disabled=""
+  >
+    1
+  </button>
+  <button
+    class="c3"
+  >
+    2
+  </button>
+  <button
+    class="c3"
+  >
+    3
+  </button>
+  <button
+    class="c1"
+  >
+    Next
+    <svg
+      aria-hidden="true"
+      class="svg-inline--fa fa-angle-right fa-w-8 "
+      data-icon="angle-right"
+      data-prefix="fas"
+      focusable="false"
+      role="img"
+      style="margin-left: 0.8rem;"
+      viewBox="0 0 256 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"
+        fill="currentColor"
+      />
+    </svg>
+  </button>
+</div>
+`;

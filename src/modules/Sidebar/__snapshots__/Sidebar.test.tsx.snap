@@ -1,0 +1,354 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sidebar should match snapshot 1`] = `
+.c3 {
+  border-color: #FEFEFE;
+  margin: 1.6rem auto;
+  opacity: 0.3;
+  width: calc(100% - 4rem);
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 2.4rem;
+}
+
+.c1:hover {
+  background-color: #000A62;
+  cursor: pointer;
+}
+
+.c1 .icon,
+.c1 .text {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c1 .icon {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  height: 6.4rem;
+  width: 6.4rem;
+}
+
+.c1 .text {
+  padding-left: 1.6rem;
+  white-space: nowrap;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2:hover {
+  background-color: #000A62;
+  cursor: pointer;
+}
+
+.c2 .icon,
+.c2 .text {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c2 .icon {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  height: 6.4rem;
+  width: 6.4rem;
+}
+
+.c2 .text {
+  padding-left: 1.6rem;
+  white-space: nowrap;
+}
+
+.c4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+.c4:hover {
+  background-color: #000A62;
+  cursor: pointer;
+}
+
+.c4 .icon,
+.c4 .text {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c4 .icon {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  height: 6.4rem;
+  width: 6.4rem;
+}
+
+.c4 .text {
+  padding-left: 1.6rem;
+  white-space: nowrap;
+}
+
+.c5 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: auto;
+}
+
+.c5:hover {
+  background-color: #000A62;
+  cursor: pointer;
+}
+
+.c5 .icon,
+.c5 .text {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c5 .icon {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  height: 6.4rem;
+  width: 6.4rem;
+}
+
+.c5 .text {
+  padding-left: 1.6rem;
+  white-space: nowrap;
+}
+
+.c0 {
+  background-color: #001254;
+  bottom: 0;
+  color: #FEFEFE;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  left: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: fixed;
+  top: 0;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  width: 6.4rem;
+  z-index: 10;
+}
+
+.c0:hover {
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  width: 25.6rem;
+}
+
+.c0 .mobile-heading {
+  display: none;
+  -webkit-flex: 0 0 5.6rem;
+  -ms-flex: 0 0 5.6rem;
+  flex: 0 0 5.6rem;
+  line-height: 5.6rem;
+  position: relative;
+  text-align: center;
+}
+
+.c0 .mobile-heading h4 {
+  line-height: 5.6rem;
+}
+
+.c0 .mobile-heading .burger-button {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  bottom: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 2.4rem;
+  position: absolute;
+  top: 0;
+}
+
+.c0 .mobile-heading .burger-button svg path {
+  fill: #FEFEFE;
+}
+
+@media (max-width:575px) {
+  .c0 {
+    bottom: initial;
+    right: 0;
+    width: initial;
+    height: 5.6rem;
+    -webkit-transition: height 0.4s ease-in-out;
+    transition: height 0.4s ease-in-out;
+    overflow-y: hidden;
+  }
+
+  .c0:hover {
+    width: initial;
+  }
+
+  .c0.expanded {
+    height: 100vh;
+    overflow-y: auto;
+  }
+
+  .c0 .mobile-heading {
+    display: block;
+  }
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="mobile-heading"
+  >
+    <div
+      class="burger-button"
+    />
+    <h4>
+      Linda Forest
+    </h4>
+  </div>
+  <div
+    class="c1"
+  >
+    <div
+      class="icon"
+    />
+    <div
+      class="text"
+    >
+      <h6>
+        Logo
+      </h6>
+    </div>
+  </div>
+  <div
+    class="c2"
+  >
+    <div
+      class="icon"
+    />
+    <div
+      class="text"
+    >
+      <h6>
+        Scout
+      </h6>
+    </div>
+  </div>
+  <hr
+    class="c3"
+  />
+  <div
+    class="c4"
+  >
+    <div
+      class="icon"
+    />
+    <div
+      class="text"
+    >
+      <h6>
+        Scout (auto)
+      </h6>
+    </div>
+  </div>
+  <div
+    class="c5"
+  >
+    <div
+      class="icon"
+    />
+    <div
+      class="text"
+    >
+      <h6>
+        Profile
+      </h6>
+    </div>
+  </div>
+</div>
+`;

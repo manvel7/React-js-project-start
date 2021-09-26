@@ -1,0 +1,630 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Default variant disabled should match snapshot 1`] = `
+.c0 {
+  border: 0.2rem solid transparent;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  padding: 0.6rem 1.6rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.6rem;
+  background-color: #E6E6E6;
+  color: #808080;
+}
+
+.c0 b,
+.c0 strong {
+  font-weight: 800;
+}
+
+<button
+  class="c0"
+>
+  Default Button disabled
+</button>
+`;
+
+exports[`Button Default variant should match snapshot 1`] = `
+.c0 {
+  border: 0.2rem solid transparent;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  padding: 0.6rem 1.6rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.6rem;
+  background-color: #001254;
+  color: #FEFEFE;
+}
+
+.c0 b,
+.c0 strong {
+  font-weight: 800;
+}
+
+<button
+  class="c0"
+>
+  Default Button
+</button>
+`;
+
+exports[`Button Default variant with state 'error' should match snapshot 1`] = `
+.c0 {
+  border: 0.2rem solid transparent;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  padding: 0.6rem 1.6rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.6rem;
+  background-color: #CA0000;
+  color: #FEFEFE;
+}
+
+.c0 b,
+.c0 strong {
+  font-weight: 800;
+}
+
+<button
+  class="c0"
+>
+  Default Info Button
+</button>
+`;
+
+exports[`Button Default variant with state 'info' should match snapshot 1`] = `
+.c0 {
+  border: 0.2rem solid transparent;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  padding: 0.6rem 1.6rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.6rem;
+  background-color: #001254;
+  color: #FEFEFE;
+}
+
+.c0 b,
+.c0 strong {
+  font-weight: 800;
+}
+
+<button
+  class="c0"
+>
+  Default Info Button
+</button>
+`;
+
+exports[`Button Default variant with state 'success' should match snapshot 1`] = `
+.c0 {
+  border: 0.2rem solid transparent;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  padding: 0.6rem 1.6rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.6rem;
+  background-color: #0C5B0F;
+  color: #FEFEFE;
+}
+
+.c0 b,
+.c0 strong {
+  font-weight: 800;
+}
+
+<button
+  class="c0"
+>
+  Default Info Button
+</button>
+`;
+
+exports[`Button Default variant with state 'warn' should match snapshot 1`] = `
+.c0 {
+  border: 0.2rem solid transparent;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  padding: 0.6rem 1.6rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.6rem;
+  background-color: #D4A600;
+  color: #FEFEFE;
+}
+
+.c0 b,
+.c0 strong {
+  font-weight: 800;
+}
+
+<button
+  class="c0"
+>
+  Default Info Button
+</button>
+`;
+
+exports[`Button Large 'lg' size should match snapshot 1`] = `
+.c0 {
+  border: 0.2rem solid transparent;
+  cursor: pointer;
+  border-radius: 0.8rem;
+  padding: 0.8rem 1.6rem;
+  font-size: 2.2rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0.005em;
+  -moz-letter-spacing: 0.005em;
+  -ms-letter-spacing: 0.005em;
+  letter-spacing: 0.005em;
+  line-height: 2.4rem;
+  background-color: #001254;
+  color: #FEFEFE;
+}
+
+.c0 b,
+.c0 strong {
+  font-weight: 800;
+}
+
+<button
+  class="c0"
+>
+  Large Button
+</button>
+`;
+
+exports[`Button Medium 'md' size should match snapshot 1`] = `
+.c0 {
+  border: 0.2rem solid transparent;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  padding: 0.6rem 1.6rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.6rem;
+  background-color: #001254;
+  color: #FEFEFE;
+}
+
+.c0 b,
+.c0 strong {
+  font-weight: 800;
+}
+
+<button
+  class="c0"
+>
+  Medium Button
+</button>
+`;
+
+exports[`Button Outlined variant disabled should match snapshot 1`] = `
+.c0 {
+  border: 0.2rem solid transparent;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  padding: 0.6rem 1.6rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.6rem;
+  background-color: transparent;
+  border: 0.1rem solid #DDDDDD;
+  box-sizing: border-box;
+  color: #808080;
+}
+
+.c0 b,
+.c0 strong {
+  font-weight: 800;
+}
+
+<button
+  class="c0"
+>
+  Outlined Button disabled
+</button>
+`;
+
+exports[`Button Outlined variant should match snapshot 1`] = `
+.c0 {
+  border: 0.2rem solid transparent;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  padding: 0.6rem 1.6rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.6rem;
+  background-color: transparent;
+  border: 0.1rem solid #001254;
+  box-sizing: border-box;
+  color: #001254;
+}
+
+.c0 b,
+.c0 strong {
+  font-weight: 800;
+}
+
+<button
+  class="c0"
+>
+  Outlined Button
+</button>
+`;
+
+exports[`Button Outlined variant with state 'error' should match snapshot 1`] = `
+.c0 {
+  border: 0.2rem solid transparent;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  padding: 0.6rem 1.6rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.6rem;
+  background-color: transparent;
+  border: 0.1rem solid #CA0000;
+  box-sizing: border-box;
+  color: #001254;
+  color: #CA0000;
+}
+
+.c0 b,
+.c0 strong {
+  font-weight: 800;
+}
+
+<button
+  class="c0"
+>
+  Default Info Button
+</button>
+`;
+
+exports[`Button Outlined variant with state 'info' should match snapshot 1`] = `
+.c0 {
+  border: 0.2rem solid transparent;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  padding: 0.6rem 1.6rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.6rem;
+  background-color: transparent;
+  border: 0.1rem solid #001254;
+  box-sizing: border-box;
+  color: #001254;
+  color: #001254;
+}
+
+.c0 b,
+.c0 strong {
+  font-weight: 800;
+}
+
+<button
+  class="c0"
+>
+  Default Info Button
+</button>
+`;
+
+exports[`Button Outlined variant with state 'success' should match snapshot 1`] = `
+.c0 {
+  border: 0.2rem solid transparent;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  padding: 0.6rem 1.6rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.6rem;
+  background-color: transparent;
+  border: 0.1rem solid #0C5B0F;
+  box-sizing: border-box;
+  color: #001254;
+  color: #0C5B0F;
+}
+
+.c0 b,
+.c0 strong {
+  font-weight: 800;
+}
+
+<button
+  class="c0"
+>
+  Default Info Button
+</button>
+`;
+
+exports[`Button Outlined variant with state 'warn' should match snapshot 1`] = `
+.c0 {
+  border: 0.2rem solid transparent;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  padding: 0.6rem 1.6rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.6rem;
+  background-color: transparent;
+  border: 0.1rem solid #D4A600;
+  box-sizing: border-box;
+  color: #001254;
+  color: #D4A600;
+}
+
+.c0 b,
+.c0 strong {
+  font-weight: 800;
+}
+
+<button
+  class="c0"
+>
+  Default Info Button
+</button>
+`;
+
+exports[`Button Small 'sm' size should match snapshot 1`] = `
+.c0 {
+  border: 0.2rem solid transparent;
+  cursor: pointer;
+  border-radius: 0.3rem;
+  padding: 0.2rem 1.6rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.6rem;
+  background-color: #001254;
+  color: #FEFEFE;
+}
+
+.c0 b,
+.c0 strong {
+  font-weight: 800;
+}
+
+<button
+  class="c0"
+>
+  Small Button
+</button>
+`;
+
+exports[`Button Text variant disabled should match snapshot 1`] = `
+.c0 {
+  border: 0.2rem solid transparent;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  padding: 0.6rem 1.6rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.6rem;
+  background-color: transparent;
+  color: #808080;
+}
+
+.c0 b,
+.c0 strong {
+  font-weight: 800;
+}
+
+<button
+  class="c0"
+>
+  Text Button disabled
+</button>
+`;
+
+exports[`Button Text variant should match snapshot 1`] = `
+.c0 {
+  border: 0.2rem solid transparent;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  padding: 0.6rem 1.6rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.6rem;
+  background-color: transparent;
+  color: #001254;
+}
+
+.c0 b,
+.c0 strong {
+  font-weight: 800;
+}
+
+<button
+  class="c0"
+>
+  Text Button
+</button>
+`;
+
+exports[`Button Text variant with state 'error' should match snapshot 1`] = `
+.c0 {
+  border: 0.2rem solid transparent;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  padding: 0.6rem 1.6rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.6rem;
+  background-color: transparent;
+  color: #001254;
+  color: #CA0000;
+}
+
+.c0 b,
+.c0 strong {
+  font-weight: 800;
+}
+
+<button
+  class="c0"
+>
+  Default Info Button
+</button>
+`;
+
+exports[`Button Text variant with state 'info' should match snapshot 1`] = `
+.c0 {
+  border: 0.2rem solid transparent;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  padding: 0.6rem 1.6rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.6rem;
+  background-color: transparent;
+  color: #001254;
+  color: #001254;
+}
+
+.c0 b,
+.c0 strong {
+  font-weight: 800;
+}
+
+<button
+  class="c0"
+>
+  Default Info Button
+</button>
+`;
+
+exports[`Button Text variant with state 'success' should match snapshot 1`] = `
+.c0 {
+  border: 0.2rem solid transparent;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  padding: 0.6rem 1.6rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.6rem;
+  background-color: transparent;
+  color: #001254;
+  color: #0C5B0F;
+}
+
+.c0 b,
+.c0 strong {
+  font-weight: 800;
+}
+
+<button
+  class="c0"
+>
+  Default Info Button
+</button>
+`;
+
+exports[`Button Text variant with state 'warn' should match snapshot 1`] = `
+.c0 {
+  border: 0.2rem solid transparent;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  padding: 0.6rem 1.6rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.6rem;
+  background-color: transparent;
+  color: #001254;
+  color: #D4A600;
+}
+
+.c0 b,
+.c0 strong {
+  font-weight: 800;
+}
+
+<button
+  class="c0"
+>
+  Default Info Button
+</button>
+`;

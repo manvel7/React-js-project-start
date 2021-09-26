@@ -1,0 +1,10 @@
+import { Meta, Story } from "@storybook/react/types-6-0";
+import { IProps } from "./Checkbox";
+declare const meta: Meta<IProps>;
+declare const DefaultCheckbox: Story<IProps>;
+declare const DefaultChecked: Story<IProps>;
+declare const DashedChecked: Story<IProps>;
+declare const DefaultDisabled: Story<IProps>;
+declare const DashedDisabled: Story<IProps>;
+export { DefaultCheckbox, DefaultChecked, DashedChecked, DefaultDisabled, DashedDisabled };
+export default meta;

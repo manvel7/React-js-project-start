@@ -1,0 +1,230 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Toolbar Default should match snapshot 1`] = `
+.c3 {
+  border: 0.2rem solid transparent;
+  cursor: pointer;
+  border-radius: 0.3rem;
+  padding: 0.2rem 1.6rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.6rem;
+  background-color: #001254;
+  color: #FEFEFE;
+}
+
+.c3 b,
+.c3 strong {
+  font-weight: 800;
+}
+
+.c2 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-wrap: no-wrap;
+  -ms-flex-wrap: no-wrap;
+  flex-wrap: no-wrap;
+}
+
+.c2 button:first-child {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.c2 button:last-child {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.c2 button:not(:first-child):not(:last-child) {
+  border-radius: 0;
+}
+
+.c2 button.toggle__button--inactive {
+  border-color: #E6E6E6;
+}
+
+.c2 button.toggle__button--active {
+  font-weight: 800;
+}
+
+.c4 {
+  display: none;
+  min-width: 100%;
+  opacity: 0;
+  position: absolute;
+  -webkit-transform: rotateX(-30deg);
+  -ms-transform: rotateX(-30deg);
+  transform: rotateX(-30deg);
+  -webkit-transform-origin: top;
+  -ms-transform-origin: top;
+  transform-origin: top;
+  -webkit-transition: opacity 0.15s ease-in,-webkit-transform 0.15s ease-in;
+  -webkit-transition: opacity 0.15s ease-in,transform 0.15s ease-in;
+  transition: opacity 0.15s ease-in,transform 0.15s ease-in;
+  z-index: 5;
+}
+
+.c1 {
+  display: inline-block;
+  -webkit-perspective: 30rem;
+  -moz-perspective: 30rem;
+  -ms-perspective: 30rem;
+  perspective: 30rem;
+  position: relative;
+  z-index: 3;
+}
+
+.c5 {
+  background-color: #F7F7F7;
+  border: 0.1rem solid #E6E6E6;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  display: block;
+  padding: 0.8rem 1.6rem;
+  -webkit-transition: background-color 0.15s ease-in;
+  transition: background-color 0.15s ease-in;
+  width: 100%;
+}
+
+.c5:hover {
+  background-color: #F1F2F5;
+}
+
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 0.1rem solid #E6E6E6;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 1.55rem;
+}
+
+.c0 > div > div {
+  margin-right: 1.6rem;
+}
+
+.c0 .return-button {
+  margin-right: 1.6rem;
+}
+
+@media (min-width:576px) {
+  .c0 .return-button {
+    visibility: hidden;
+  }
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      <button
+        class="c3"
+      >
+        Share
+      </button>
+      <button
+        class="c3"
+      >
+        <svg
+          aria-hidden="true"
+          class="svg-inline--fa fa-caret-down fa-w-10 fa-sm "
+          data-icon="caret-down"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          viewBox="0 0 320 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"
+            fill="currentColor"
+          />
+        </svg>
+      </button>
+    </div>
+    <div
+      class="c4"
+    >
+      <a
+        class="c5"
+      >
+        Item 1
+      </a>
+      <a
+        class="c5"
+      >
+        Item 2
+      </a>
+    </div>
+  </div>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      <button
+        class="c3"
+      >
+        Export
+      </button>
+      <button
+        class="c3"
+      >
+        <svg
+          aria-hidden="true"
+          class="svg-inline--fa fa-caret-down fa-w-10 fa-sm "
+          data-icon="caret-down"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          viewBox="0 0 320 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"
+            fill="currentColor"
+          />
+        </svg>
+      </button>
+    </div>
+    <div
+      class="c4"
+    >
+      <a
+        class="c5"
+      >
+        Item 1
+      </a>
+      <a
+        class="c5"
+      >
+        Item 2
+      </a>
+    </div>
+  </div>
+</div>
+`;

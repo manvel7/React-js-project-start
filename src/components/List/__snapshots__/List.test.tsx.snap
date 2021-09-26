@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List with active item should match snapshot 1`] = `
+.c0 {
+  width: 100%;
+}
+
+.c0 li {
+  margin-bottom: 1.6rem;
+}
+
+.c0 li:last-child {
+  margin-bottom: 0;
+}
+
+.c1 {
+  background-color: #F1F2F5;
+  border: 0.2rem solid #F1F2F5;
+  border-radius: 0.4rem;
+  min-height: 6.4rem;
+  padding: 0.8rem 1.6rem 1.6rem;
+  width: 100%;
+}
+
+.c1 small {
+  color: #808080;
+}
+
+.c2 {
+  background-color: #F1F2F5;
+  border: 0.2rem solid #F1F2F5;
+  border-radius: 0.4rem;
+  min-height: 6.4rem;
+  padding: 0.8rem 1.6rem 1.6rem;
+  width: 100%;
+  border-color: #000A62;
+}
+
+.c2 small {
+  color: #808080;
+}
+
+<ul
+  class="c0"
+>
+  <li
+    class="c1"
+  >
+    item 1
+  </li>
+  <li
+    class="c2"
+  >
+    item 2
+  </li>
+  <li
+    class="c1"
+  >
+    item 3
+  </li>
+</ul>
+`;
+
+exports[`List without active item should match snapshot 1`] = `
+.c0 {
+  width: 100%;
+}
+
+.c0 li {
+  margin-bottom: 1.6rem;
+}
+
+.c0 li:last-child {
+  margin-bottom: 0;
+}
+
+.c1 {
+  background-color: #F1F2F5;
+  border: 0.2rem solid #F1F2F5;
+  border-radius: 0.4rem;
+  min-height: 6.4rem;
+  padding: 0.8rem 1.6rem 1.6rem;
+  width: 100%;
+}
+
+.c1 small {
+  color: #808080;
+}
+
+<ul
+  class="c0"
+>
+  <li
+    class="c1"
+  >
+    item 1
+  </li>
+  <li
+    class="c1"
+  >
+    item 2
+  </li>
+  <li
+    class="c1"
+  >
+    item 3
+  </li>
+</ul>
+`;

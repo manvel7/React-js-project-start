@@ -1,0 +1,257 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container default should match snapshot 1`] = `
+.c0 {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: calc( 3.2rem / 2 );
+  padding-right: calc( 3.2rem / 2 );
+  width: 100%;
+}
+
+@media (min-width:576px) {
+  .c0 {
+    max-width: 54.4rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c0 {
+    max-width: 72rem;
+  }
+}
+
+@media (min-width:992px) {
+  .c0 {
+    max-width: 96rem;
+  }
+}
+
+@media (min-width:1200px) {
+  .c0 {
+    max-width: 114.4rem;
+  }
+}
+
+<div
+  class="c0 container"
+>
+  This is a container
+</div>
+`;
+
+exports[`Container fluid on all breakpoints should match snapshot 1`] = `
+.c0 {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: calc( 3.2rem / 2 );
+  padding-right: calc( 3.2rem / 2 );
+  width: 100%;
+}
+
+<div
+  class="c0 container container-fluid"
+>
+  This is a container
+</div>
+`;
+
+exports[`Container fluid on lg breakpoint should match snapshot 1`] = `
+.c0 {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: calc( 3.2rem / 2 );
+  padding-right: calc( 3.2rem / 2 );
+  width: 100%;
+}
+
+@media (min-width:576px) {
+  .c0 {
+    max-width: 54.4rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c0 {
+    max-width: 72rem;
+  }
+}
+
+@media (min-width:992px) {
+  .c0 {
+    max-width: none;
+  }
+}
+
+@media (min-width:1200px) {
+  .c0 {
+    max-width: none;
+  }
+}
+
+<div
+  class="c0 container container-lg-fluid"
+>
+  This is a container
+</div>
+`;
+
+exports[`Container fluid on md breakpoint should match snapshot 1`] = `
+.c0 {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: calc( 3.2rem / 2 );
+  padding-right: calc( 3.2rem / 2 );
+  width: 100%;
+}
+
+@media (min-width:576px) {
+  .c0 {
+    max-width: 54.4rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c0 {
+    max-width: none;
+  }
+}
+
+@media (min-width:992px) {
+  .c0 {
+    max-width: none;
+  }
+}
+
+@media (min-width:1200px) {
+  .c0 {
+    max-width: none;
+  }
+}
+
+<div
+  class="c0 container container-md-fluid"
+>
+  This is a container
+</div>
+`;
+
+exports[`Container fluid on sm breakpoint should match snapshot 1`] = `
+.c0 {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: calc( 3.2rem / 2 );
+  padding-right: calc( 3.2rem / 2 );
+  width: 100%;
+}
+
+@media (min-width:576px) {
+  .c0 {
+    max-width: none;
+  }
+}
+
+@media (min-width:768px) {
+  .c0 {
+    max-width: none;
+  }
+}
+
+@media (min-width:992px) {
+  .c0 {
+    max-width: none;
+  }
+}
+
+@media (min-width:1200px) {
+  .c0 {
+    max-width: none;
+  }
+}
+
+<div
+  class="c0 container container-sm-fluid"
+>
+  This is a container
+</div>
+`;
+
+exports[`Container fluid on xl breakpoint should match snapshot 1`] = `
+.c0 {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: calc( 3.2rem / 2 );
+  padding-right: calc( 3.2rem / 2 );
+  width: 100%;
+}
+
+@media (min-width:576px) {
+  .c0 {
+    max-width: 54.4rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c0 {
+    max-width: 72rem;
+  }
+}
+
+@media (min-width:992px) {
+  .c0 {
+    max-width: 96rem;
+  }
+}
+
+@media (min-width:1200px) {
+  .c0 {
+    max-width: none;
+  }
+}
+
+<div
+  class="c0 container container-xl-fluid"
+>
+  This is a container
+</div>
+`;
+
+exports[`Container fluid on xs breakpoint should match snapshot 1`] = `
+.c0 {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: calc( 3.2rem / 2 );
+  padding-right: calc( 3.2rem / 2 );
+  width: 100%;
+}
+
+@media (min-width:576px) {
+  .c0 {
+    max-width: none;
+  }
+}
+
+@media (min-width:768px) {
+  .c0 {
+    max-width: none;
+  }
+}
+
+@media (min-width:992px) {
+  .c0 {
+    max-width: none;
+  }
+}
+
+@media (min-width:1200px) {
+  .c0 {
+    max-width: none;
+  }
+}
+
+<div
+  class="c0 container container-xs-fluid"
+>
+  This is a container
+</div>
+`;

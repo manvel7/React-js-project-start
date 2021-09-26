@@ -1,0 +1,291 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dropdown Medium 'md' size should match snapshot 1`] = `
+.c2 {
+  border: 0.2rem solid transparent;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  padding: 0.6rem 1.6rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.6rem;
+  background-color: #001254;
+  color: #FEFEFE;
+}
+
+.c2 b,
+.c2 strong {
+  font-weight: 800;
+}
+
+.c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-wrap: no-wrap;
+  -ms-flex-wrap: no-wrap;
+  flex-wrap: no-wrap;
+}
+
+.c1 button:first-child {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.c1 button:last-child {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.c1 button:not(:first-child):not(:last-child) {
+  border-radius: 0;
+}
+
+.c1 button.toggle__button--inactive {
+  border-color: #E6E6E6;
+}
+
+.c1 button.toggle__button--active {
+  font-weight: 800;
+}
+
+.c3 {
+  display: none;
+  min-width: 100%;
+  opacity: 0;
+  position: absolute;
+  -webkit-transform: rotateX(-30deg);
+  -ms-transform: rotateX(-30deg);
+  transform: rotateX(-30deg);
+  -webkit-transform-origin: top;
+  -ms-transform-origin: top;
+  transform-origin: top;
+  -webkit-transition: opacity 0.15s ease-in,-webkit-transform 0.15s ease-in;
+  -webkit-transition: opacity 0.15s ease-in,transform 0.15s ease-in;
+  transition: opacity 0.15s ease-in,transform 0.15s ease-in;
+  z-index: 5;
+}
+
+.c0 {
+  display: inline-block;
+  -webkit-perspective: 30rem;
+  -moz-perspective: 30rem;
+  -ms-perspective: 30rem;
+  perspective: 30rem;
+  position: relative;
+  z-index: 3;
+}
+
+.c4 {
+  background-color: #F7F7F7;
+  border: 0.1rem solid #E6E6E6;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  display: block;
+  padding: 0.8rem 1.6rem;
+  -webkit-transition: background-color 0.15s ease-in;
+  transition: background-color 0.15s ease-in;
+  width: 100%;
+}
+
+.c4:hover {
+  background-color: #F1F2F5;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <button
+      class="c2"
+    >
+      Medium dropdown
+    </button>
+    <button
+      class="c2"
+    >
+      <svg
+        aria-hidden="true"
+        class="svg-inline--fa fa-caret-down fa-w-10 fa-sm "
+        data-icon="caret-down"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        viewBox="0 0 320 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"
+          fill="currentColor"
+        />
+      </svg>
+    </button>
+  </div>
+  <div
+    class="c3"
+  >
+    <a
+      class="c4"
+    >
+      First item
+    </a>
+    <a
+      class="c4"
+    >
+      Second item
+    </a>
+  </div>
+</div>
+`;
+
+exports[`Dropdown Small 'sm' size should match snapshot 1`] = `
+.c2 {
+  border: 0.2rem solid transparent;
+  cursor: pointer;
+  border-radius: 0.3rem;
+  padding: 0.2rem 1.6rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.6rem;
+  background-color: #001254;
+  color: #FEFEFE;
+}
+
+.c2 b,
+.c2 strong {
+  font-weight: 800;
+}
+
+.c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-wrap: no-wrap;
+  -ms-flex-wrap: no-wrap;
+  flex-wrap: no-wrap;
+}
+
+.c1 button:first-child {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.c1 button:last-child {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.c1 button:not(:first-child):not(:last-child) {
+  border-radius: 0;
+}
+
+.c1 button.toggle__button--inactive {
+  border-color: #E6E6E6;
+}
+
+.c1 button.toggle__button--active {
+  font-weight: 800;
+}
+
+.c3 {
+  display: none;
+  min-width: 100%;
+  opacity: 0;
+  position: absolute;
+  -webkit-transform: rotateX(-30deg);
+  -ms-transform: rotateX(-30deg);
+  transform: rotateX(-30deg);
+  -webkit-transform-origin: top;
+  -ms-transform-origin: top;
+  transform-origin: top;
+  -webkit-transition: opacity 0.15s ease-in,-webkit-transform 0.15s ease-in;
+  -webkit-transition: opacity 0.15s ease-in,transform 0.15s ease-in;
+  transition: opacity 0.15s ease-in,transform 0.15s ease-in;
+  z-index: 5;
+}
+
+.c0 {
+  display: inline-block;
+  -webkit-perspective: 30rem;
+  -moz-perspective: 30rem;
+  -ms-perspective: 30rem;
+  perspective: 30rem;
+  position: relative;
+  z-index: 3;
+}
+
+.c4 {
+  background-color: #F7F7F7;
+  border: 0.1rem solid #E6E6E6;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  display: block;
+  padding: 0.8rem 1.6rem;
+  -webkit-transition: background-color 0.15s ease-in;
+  transition: background-color 0.15s ease-in;
+  width: 100%;
+}
+
+.c4:hover {
+  background-color: #F1F2F5;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <button
+      class="c2"
+    >
+      Small dropdown
+    </button>
+    <button
+      class="c2"
+    >
+      <svg
+        aria-hidden="true"
+        class="svg-inline--fa fa-caret-down fa-w-10 fa-sm "
+        data-icon="caret-down"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        viewBox="0 0 320 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"
+          fill="currentColor"
+        />
+      </svg>
+    </button>
+  </div>
+  <div
+    class="c3"
+  >
+    <a
+      class="c4"
+    >
+      First item
+    </a>
+    <a
+      class="c4"
+    >
+      Second item
+    </a>
+  </div>
+</div>
+`;

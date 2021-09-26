@@ -1,0 +1,416 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RadioItem Default should match snapshot 1`] = `
+.c2 {
+  border: 0;
+  -webkit-clip: rect(0 0 0 0);
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  height: 0.1rem;
+  margin: -0.1rem;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 0.1rem;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 0.8rem;
+}
+
+.c1:last-child {
+  margin-bottom: 0;
+}
+
+.c1 .radio-select__item {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #FEFEFE;
+  border: 0.2rem solid #001254;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 1.6rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-right: 0.8rem;
+  width: 1.6rem;
+}
+
+.c1 .radio-select__item:after {
+  background-color: #001254;
+  border-radius: 50%;
+  content: "";
+  display: block;
+  height: 0.8rem;
+  opacity: 0;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: -webkit-transform 0.25s ease-in-out,opacity 0.2s ease-in-out;
+  -webkit-transition: transform 0.25s ease-in-out,opacity 0.2s ease-in-out;
+  transition: transform 0.25s ease-in-out,opacity 0.2s ease-in-out;
+  width: 0.8rem;
+}
+
+.c0 {
+  display: inline-block;
+}
+
+<div
+  class="c0"
+>
+  <label
+    class="c1"
+    label="first"
+  >
+    <input
+      class="c2"
+      label="first"
+      type="radio"
+      value="0"
+    />
+    <div
+      class="radio-select__item"
+    />
+    <span>
+      first
+    </span>
+  </label>
+  <label
+    class="c1"
+    label="second"
+  >
+    <input
+      class="c2"
+      label="second"
+      type="radio"
+      value="1"
+    />
+    <div
+      class="radio-select__item"
+    />
+    <span>
+      second
+    </span>
+  </label>
+  <label
+    class="c1"
+    label="third"
+  >
+    <input
+      class="c2"
+      label="third"
+      type="radio"
+      value="2"
+    />
+    <div
+      class="radio-select__item"
+    />
+    <span>
+      third
+    </span>
+  </label>
+</div>
+`;
+
+exports[`RadioItem DisabledState should match snapshot 1`] = `
+.c2 {
+  border: 0;
+  -webkit-clip: rect(0 0 0 0);
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  height: 0.1rem;
+  margin: -0.1rem;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 0.1rem;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 0.8rem;
+}
+
+.c1:last-child {
+  margin-bottom: 0;
+}
+
+.c1 .radio-select__item {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #FEFEFE;
+  border: 0.2rem solid #001254;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 1.6rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-right: 0.8rem;
+  width: 1.6rem;
+}
+
+.c1 .radio-select__item:after {
+  background-color: #001254;
+  border-radius: 50%;
+  content: "";
+  display: block;
+  height: 0.8rem;
+  opacity: 0;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: -webkit-transform 0.25s ease-in-out,opacity 0.2s ease-in-out;
+  -webkit-transition: transform 0.25s ease-in-out,opacity 0.2s ease-in-out;
+  transition: transform 0.25s ease-in-out,opacity 0.2s ease-in-out;
+  width: 0.8rem;
+}
+
+.c1 .radio-select__item {
+  border-color: #DDDDDD;
+}
+
+.c1 .radio-select__item:after {
+  background-color: #DDDDDD;
+}
+
+.c0 {
+  display: inline-block;
+}
+
+<div
+  class="c0"
+>
+  <label
+    class="c1"
+    disabled=""
+    label="first"
+  >
+    <input
+      class="c2"
+      disabled=""
+      label="first"
+      type="radio"
+      value="0"
+    />
+    <div
+      class="radio-select__item"
+    />
+    <span>
+      first
+    </span>
+  </label>
+  <label
+    class="c1"
+    disabled=""
+    label="second"
+  >
+    <input
+      class="c2"
+      disabled=""
+      label="second"
+      type="radio"
+      value="1"
+    />
+    <div
+      class="radio-select__item"
+    />
+    <span>
+      second
+    </span>
+  </label>
+  <label
+    class="c1"
+    disabled=""
+    label="third"
+  >
+    <input
+      class="c2"
+      disabled=""
+      label="third"
+      type="radio"
+      value="2"
+    />
+    <div
+      class="radio-select__item"
+    />
+    <span>
+      third
+    </span>
+  </label>
+</div>
+`;
+
+exports[`RadioItem ErrorState should match snapshot 1`] = `
+.c2 {
+  border: 0;
+  -webkit-clip: rect(0 0 0 0);
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  height: 0.1rem;
+  margin: -0.1rem;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 0.1rem;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 0.8rem;
+}
+
+.c1:last-child {
+  margin-bottom: 0;
+}
+
+.c1 .radio-select__item {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #FEFEFE;
+  border: 0.2rem solid #001254;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 1.6rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-right: 0.8rem;
+  width: 1.6rem;
+}
+
+.c1 .radio-select__item:after {
+  background-color: #001254;
+  border-radius: 50%;
+  content: "";
+  display: block;
+  height: 0.8rem;
+  opacity: 0;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: -webkit-transform 0.25s ease-in-out,opacity 0.2s ease-in-out;
+  -webkit-transition: transform 0.25s ease-in-out,opacity 0.2s ease-in-out;
+  transition: transform 0.25s ease-in-out,opacity 0.2s ease-in-out;
+  width: 0.8rem;
+}
+
+.c1 .radio-select__item {
+  border-color: #CA0000;
+}
+
+.c1 .radio-select__item:after {
+  background-color: #CA0000;
+}
+
+.c0 {
+  display: inline-block;
+}
+
+<div
+  class="c0"
+>
+  <label
+    class="c1"
+    label="first"
+  >
+    <input
+      class="c2"
+      label="first"
+      type="radio"
+      value="0"
+    />
+    <div
+      class="radio-select__item"
+    />
+    <span>
+      first
+    </span>
+  </label>
+  <label
+    class="c1"
+    label="second"
+  >
+    <input
+      class="c2"
+      label="second"
+      type="radio"
+      value="1"
+    />
+    <div
+      class="radio-select__item"
+    />
+    <span>
+      second
+    </span>
+  </label>
+  <label
+    class="c1"
+    label="third"
+  >
+    <input
+      class="c2"
+      label="third"
+      type="radio"
+      value="2"
+    />
+    <div
+      class="radio-select__item"
+    />
+    <span>
+      third
+    </span>
+  </label>
+</div>
+`;

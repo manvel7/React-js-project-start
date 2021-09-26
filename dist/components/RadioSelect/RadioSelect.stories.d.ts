@@ -1,0 +1,10 @@
+import { Meta, Story } from "@storybook/react/types-6-0";
+import { IProps } from "./RadioSelect";
+declare const meta: Meta<IProps>;
+declare const Default: Story<IProps>;
+declare const WithoutLabels: Story<IProps>;
+declare const WithAutoValues: Story<IProps>;
+declare const ErrorState: Story<IProps>;
+declare const DisabledState: Story<IProps>;
+export { Default, WithoutLabels, WithAutoValues, ErrorState, DisabledState };
+export default meta;

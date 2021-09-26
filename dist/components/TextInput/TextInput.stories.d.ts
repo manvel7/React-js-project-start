@@ -1,0 +1,10 @@
+import { Meta, Story } from "@storybook/react/types-6-0";
+import { IProps } from "./TextInput";
+declare const meta: Meta<IProps>;
+declare const Default: Story<IProps>;
+declare const Disabled: Story<IProps>;
+declare const Large: Story<IProps>;
+declare const Small: Story<IProps>;
+declare const ExtraSmall: Story<IProps>;
+export { Default, Disabled, Large, Small, ExtraSmall };
+export default meta;

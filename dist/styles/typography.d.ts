@@ -1,0 +1,10 @@
+import { DefaultTheme, FlattenInterpolation, ThemedStyledProps } from "styled-components";
+declare const h1Mixin: <P extends Record<any, any>>() => FlattenInterpolation<ThemedStyledProps<P, DefaultTheme>>;
+declare const h2Mixin: <P extends Record<any, any>>() => FlattenInterpolation<ThemedStyledProps<P, DefaultTheme>>;
+declare const h3Mixin: <P extends Record<any, any>>() => FlattenInterpolation<ThemedStyledProps<P, DefaultTheme>>;
+declare const h4Mixin: <P extends Record<any, any>>() => FlattenInterpolation<ThemedStyledProps<P, DefaultTheme>>;
+declare const h5Mixin: <P extends Record<any, any>>() => FlattenInterpolation<ThemedStyledProps<P, DefaultTheme>>;
+declare const h6Mixin: <P extends Record<any, any>>() => FlattenInterpolation<ThemedStyledProps<P, DefaultTheme>>;
+declare const bodyMixin: <P extends Record<any, any>>() => FlattenInterpolation<ThemedStyledProps<P, DefaultTheme>>;
+declare const smallMixin: <P extends Record<any, any>>() => FlattenInterpolation<ThemedStyledProps<P, DefaultTheme>>;
+export { h1Mixin, h2Mixin, h3Mixin, h4Mixin, h5Mixin, h6Mixin, bodyMixin, smallMixin };

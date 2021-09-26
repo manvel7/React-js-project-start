@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accordion Regular should match snapshot 1`] = `
+.c2 {
+  color: #232323;
+  max-height: 0;
+  opacity: 0;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+  max-height: none;
+  opacity: 1;
+  padding: 0.8rem 0;
+}
+
+.c1 {
+  color: #232323;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.8rem 0;
+  font-size: 1.8rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0.005em;
+  -moz-letter-spacing: 0.005em;
+  -ms-letter-spacing: 0.005em;
+  letter-spacing: 0.005em;
+  line-height: 2.4rem;
+}
+
+.c1::after {
+  color: #001254;
+  content: "❯";
+  height: 2.4rem;
+  text-align: center;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+  width: 2.4rem;
+}
+
+.c1 b,
+.c1 strong {
+  font-weight: 800;
+}
+
+.c1::after {
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.c0 {
+  background-color: #F1F2F5;
+  border: 0.1rem solid #E6E6E6;
+  border-radius: 0.4rem;
+  color: #FEFEFE;
+  overflow: hidden;
+  padding: 0.8rem 1.6rem;
+  width: 100%;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    Accordion
+  </div>
+  <div
+    class="c2"
+  >
+    Primary Button
+  </div>
+</div>
+`;

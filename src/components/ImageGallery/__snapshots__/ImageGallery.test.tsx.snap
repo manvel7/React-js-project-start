@@ -1,0 +1,223 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImageGallery Default should match snapshot 1`] = `
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 1 25%;
+  -ms-flex: 0 1 25%;
+  flex: 0 1 25%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c4 > div {
+  margin-bottom: 0.8rem;
+}
+
+.c4 > div:last-child {
+  margin-bottom: 0;
+}
+
+.c2 {
+  border: 0.1rem solid transparent;
+  border-radius: 0.6rem;
+  overflow: hidden;
+}
+
+.c2 img {
+  height: 100%;
+  object-fit: cover;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.c3 .c2 {
+  cursor: pointer;
+  -webkit-flex: 1 1 0;
+  -ms-flex: 1 1 0;
+  flex: 1 1 0;
+}
+
+.c5 {
+  border: 0.1rem solid transparent;
+  border-radius: 0.6rem;
+  overflow: hidden;
+  border-color: #001254;
+}
+
+.c5 img {
+  height: 100%;
+  object-fit: cover;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.c3 .c5 {
+  cursor: pointer;
+  -webkit-flex: 1 1 0;
+  -ms-flex: 1 1 0;
+  flex: 1 1 0;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  width: 100%;
+}
+
+.c1 {
+  -webkit-flex: 1 0 75%;
+  -ms-flex: 1 0 75%;
+  flex: 1 0 75%;
+  height: 40rem;
+  margin-right: 0.8rem;
+  position: relative;
+}
+
+.c1 .nav-buttons {
+  background-color: transparent;
+  bottom: 1.6rem;
+  left: 1.6rem;
+  position: absolute;
+}
+
+.c1 .nav-buttons button {
+  background-color: #FEFEFE;
+  border: 0.1rem solid #E6E6E6;
+  border-radius: 0.4rem;
+  color: #001254;
+  cursor: pointer;
+  height: 4rem;
+  width: 4rem;
+}
+
+.c1 .nav-buttons button:first-child {
+  margin-right: 0.8rem;
+}
+
+@media (max-width:575px) {
+  .c4 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin-top: 0.8rem;
+    height: 8rem;
+  }
+
+  .c4 > div {
+    margin-bottom: 0rem;
+    margin-right: 0.8rem;
+  }
+
+  .c4 > div:last-child {
+    margin-right: 0;
+  }
+}
+
+@media (max-width:575px) {
+  .c0 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media (max-width:575px) {
+  .c1 {
+    margin-right: 0;
+  }
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+      style="height: 100%;"
+    >
+      <img
+        alt=""
+        src="https://picsum.photos/id/11/1280/720"
+      />
+    </div>
+    <div
+      class="nav-buttons hidden-sm-down"
+    >
+      <button>
+        <svg
+          aria-hidden="true"
+          class="svg-inline--fa fa-arrow-left fa-w-14 fa-lg "
+          data-icon="arrow-left"
+          data-prefix="far"
+          focusable="false"
+          role="img"
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M229.9 473.899l19.799-19.799c4.686-4.686 4.686-12.284 0-16.971L94.569 282H436c6.627 0 12-5.373 12-12v-28c0-6.627-5.373-12-12-12H94.569l155.13-155.13c4.686-4.686 4.686-12.284 0-16.971L229.9 38.101c-4.686-4.686-12.284-4.686-16.971 0L3.515 247.515c-4.686 4.686-4.686 12.284 0 16.971L212.929 473.9c4.686 4.686 12.284 4.686 16.971-.001z"
+            fill="currentColor"
+          />
+        </svg>
+      </button>
+      <button>
+        <svg
+          aria-hidden="true"
+          class="svg-inline--fa fa-arrow-right fa-w-14 fa-lg "
+          data-icon="arrow-right"
+          data-prefix="far"
+          focusable="false"
+          role="img"
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M218.101 38.101L198.302 57.9c-4.686 4.686-4.686 12.284 0 16.971L353.432 230H12c-6.627 0-12 5.373-12 12v28c0 6.627 5.373 12 12 12h341.432l-155.13 155.13c-4.686 4.686-4.686 12.284 0 16.971l19.799 19.799c4.686 4.686 12.284 4.686 16.971 0l209.414-209.414c4.686-4.686 4.686-12.284 0-16.971L235.071 38.101c-4.686-4.687-12.284-4.687-16.97 0z"
+            fill="currentColor"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div
+    class="c3 c4"
+  >
+    <div
+      class="c5"
+    >
+      <img
+        alt=""
+        src="https://picsum.photos/id/11/1280/720"
+      />
+    </div>
+    <div
+      class="c2"
+    >
+      <img
+        alt=""
+        src="https://picsum.photos/id/12/1024/768"
+      />
+    </div>
+    <div
+      class="c2"
+    >
+      <img
+        alt=""
+        src="https://picsum.photos/id/13/1024/720"
+      />
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,10 @@
+import { Meta, Story } from "@storybook/react/types-6-0";
+import { IProps } from "./Alert";
+declare const meta: Meta<IProps>;
+declare const DefaultDismissibleAlert: Story<IProps>;
+declare const InfoAlert: Story<IProps>;
+declare const SuccessAlert: Story<IProps>;
+declare const WarningAlert: Story<IProps>;
+declare const ErrorAlert: Story<IProps>;
+export { DefaultDismissibleAlert, InfoAlert, SuccessAlert, WarningAlert, ErrorAlert };
+export default meta;

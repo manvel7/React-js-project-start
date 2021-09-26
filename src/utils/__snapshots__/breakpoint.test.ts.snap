@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`utils / breakpoint mediaBreakpointBetween should match snapshot 1`] = `
+"
+      @media (min-width: 576px) and (max-width: 1199px) {
+        color: black;
+      }
+    "
+`;
+
+exports[`utils / breakpoint mediaBreakpointDown should match snapshot 1`] = `
+"
+      @media (max-width: 991px) {
+        color: black;
+      }
+    "
+`;
+
+exports[`utils / breakpoint mediaBreakpointOnly should match snapshot 1`] = `
+"
+      @media (min-width: 768px) and (max-width: 991px) {
+        color: black;
+      }
+    "
+`;
+
+exports[`utils / breakpoint mediaBreakpointUp should match snapshot 1`] = `
+"
+      @media (min-width: 576px) {
+        color: black;
+      }
+    "
+`;

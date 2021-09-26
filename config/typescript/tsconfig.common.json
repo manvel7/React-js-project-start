@@ -1,0 +1,11 @@
+{
+  "extends": "../../../../tsconfig.json",
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["es6", "esnext", "dom", "dom.iterable"],
+    "rootDir": "../../src",
+    "baseUrl": "../../src",
+    "jsx": "react"
+  },
+  "exclude": ["../../node_modules", "../../dist/*"]
+}

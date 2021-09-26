@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Jumbotron Large should match snapshot 1`] = `
+.c0 {
+  background-color: #000A62;
+  border-radius: 0.4rem;
+  color: #FEFEFE;
+  padding: 1.6rem;
+  width: 100%;
+  font-size: 2.2rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0.005em;
+  -moz-letter-spacing: 0.005em;
+  -ms-letter-spacing: 0.005em;
+  letter-spacing: 0.005em;
+  line-height: 2.4rem;
+}
+
+.c0 b,
+.c0 strong {
+  font-weight: 800;
+}
+
+<div
+  class="c0"
+>
+  Jumbotron
+</div>
+`;

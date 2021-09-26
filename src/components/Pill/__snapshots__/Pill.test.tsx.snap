@@ -1,0 +1,167 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pill Active medium 'md' size should match snapshot 1`] = `
+.c0 {
+  background-color: transparent;
+  border: none;
+  border-radius: 0.4rem;
+  color: #001254;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0.4rem 1.6rem;
+  background-color: #001254;
+  color: #FEFEFE;
+  font-size: 1.6rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 2.4rem;
+}
+
+<button
+  class="c0"
+>
+  Medium Pill
+</button>
+`;
+
+exports[`Pill Active should match snapshot 1`] = `
+.c0 {
+  background-color: transparent;
+  border: none;
+  border-radius: 0.4rem;
+  color: #001254;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0.4rem 1.6rem;
+  background-color: #001254;
+  color: #FEFEFE;
+  font-size: 1.6rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 2.4rem;
+}
+
+<button
+  class="c0"
+>
+  Active Pill
+</button>
+`;
+
+exports[`Pill Active small 'sm' size should match snapshot 1`] = `
+.c0 {
+  background-color: transparent;
+  border: none;
+  border-radius: 0.4rem;
+  color: #001254;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0.4rem 1.6rem;
+  background-color: #001254;
+  color: #FEFEFE;
+  font-size: 1.4rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.6rem;
+}
+
+.c0 b,
+.c0 strong {
+  font-weight: 800;
+}
+
+<button
+  class="c0"
+>
+  Small Pill
+</button>
+`;
+
+exports[`Pill Not Active medium 'md' size should match snapshot 1`] = `
+.c0 {
+  background-color: transparent;
+  border: none;
+  border-radius: 0.4rem;
+  color: #001254;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0.4rem 1.6rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 2.4rem;
+}
+
+<button
+  class="c0"
+>
+  Medium Pill
+</button>
+`;
+
+exports[`Pill Not Active should match snapshot 1`] = `
+.c0 {
+  background-color: transparent;
+  border: none;
+  border-radius: 0.4rem;
+  color: #001254;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0.4rem 1.6rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 2.4rem;
+}
+
+<button
+  class="c0"
+>
+  Not Active Pill
+</button>
+`;
+
+exports[`Pill Not Active small 'sm' size should match snapshot 1`] = `
+.c0 {
+  background-color: transparent;
+  border: none;
+  border-radius: 0.4rem;
+  color: #001254;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0.4rem 1.6rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.6rem;
+}
+
+.c0 b,
+.c0 strong {
+  font-weight: 800;
+}
+
+<button
+  class="c0"
+>
+  Small Pill
+</button>
+`;

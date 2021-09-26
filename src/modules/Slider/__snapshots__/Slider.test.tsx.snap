@@ -1,0 +1,263 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Slider Default variant should match snapshot 1`] = `
+.c6 {
+  border: 0.2rem solid transparent;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  padding: 0.6rem 1.6rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.6rem;
+  background-color: transparent;
+  color: #001254;
+}
+
+.c6 b,
+.c6 strong {
+  font-weight: 800;
+}
+
+.c7 {
+  background-color: #F1F2F5;
+  border: none;
+  color: #001254;
+  cursor: pointer;
+  margin: 0 0.4rem;
+  min-height: 3.2rem;
+  min-width: 3.2rem;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0.005em;
+  -moz-letter-spacing: 0.005em;
+  -ms-letter-spacing: 0.005em;
+  letter-spacing: 0.005em;
+  line-height: 2.4rem;
+  border-radius: 10rem;
+  background-color: #001254;
+  color: #FEFEFE;
+}
+
+.c7[disabled] {
+  cursor: initial;
+}
+
+.c7:first-child {
+  margin-left: 0;
+}
+
+.c7:last-child {
+  margin-right: 0;
+}
+
+.c7 b,
+.c7 strong {
+  font-weight: 800;
+}
+
+.c8 {
+  background-color: #F1F2F5;
+  border: none;
+  color: #001254;
+  cursor: pointer;
+  margin: 0 0.4rem;
+  min-height: 3.2rem;
+  min-width: 3.2rem;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0.005em;
+  -moz-letter-spacing: 0.005em;
+  -ms-letter-spacing: 0.005em;
+  letter-spacing: 0.005em;
+  line-height: 2.4rem;
+  border-radius: 10rem;
+}
+
+.c8[disabled] {
+  cursor: initial;
+}
+
+.c8:first-child {
+  margin-left: 0;
+}
+
+.c8:last-child {
+  margin-right: 0;
+}
+
+.c8 b,
+.c8 strong {
+  font-weight: 800;
+}
+
+.c5 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.c3 {
+  -webkit-align-items: baseline;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.c3 > * {
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c1 {
+  left: 50%;
+  opacity: 0;
+  position: absolute;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  -webkit-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+  z-index: -1;
+  opacity: 1;
+  z-index: 1;
+}
+
+.c2 {
+  left: 50%;
+  opacity: 0;
+  position: absolute;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  -webkit-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+  z-index: -1;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.c0 {
+  padding: 3rem 0;
+  position: relative;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div>
+        first slide
+      </div>
+    </div>
+    <div
+      class="c2"
+    >
+      <div>
+        second slide
+      </div>
+    </div>
+    <div
+      class="c3"
+    >
+      <div>
+        first slide
+      </div>
+      <div>
+        second slide
+      </div>
+    </div>
+  </div>
+  <div
+    class="c4"
+  >
+    <div
+      class="c5"
+    >
+      <button
+        class="c6 hidden"
+      >
+        <svg
+          aria-hidden="true"
+          class="svg-inline--fa fa-angle-left fa-w-8 "
+          data-icon="angle-left"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style="margin-right: 0.8rem;"
+          viewBox="0 0 256 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z"
+            fill="currentColor"
+          />
+        </svg>
+        Previous
+      </button>
+      <button
+        class="c7"
+        disabled=""
+      />
+      <button
+        class="c8"
+      />
+      <button
+        class="c6"
+      >
+        Next
+        <svg
+          aria-hidden="true"
+          class="svg-inline--fa fa-angle-right fa-w-8 "
+          data-icon="angle-right"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style="margin-left: 0.8rem;"
+          viewBox="0 0 256 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"
+            fill="currentColor"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+`;

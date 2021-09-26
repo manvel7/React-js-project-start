@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tooltip with button reference should match snapshot 1`] = `
+.c0 {
+  border: 0.2rem solid transparent;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  padding: 0.6rem 1.6rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.6rem;
+  background-color: #001254;
+  color: #FEFEFE;
+}
+
+.c0 b,
+.c0 strong {
+  font-weight: 800;
+}
+
+<button
+  class="c0"
+>
+  Button reference
+</button>
+`;
+
+exports[`Tooltip with manual state should match snapshot 1`] = `
+<span>
+  Manual state
+</span>
+`;
+
+exports[`Tooltip with placement right should match snapshot 1`] = `
+<span>
+  Placement right
+</span>
+`;
+
+exports[`Tooltip with text reference should match snapshot 1`] = `
+<span>
+  Text reference
+</span>
+`;
